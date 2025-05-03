@@ -1,0 +1,33 @@
+﻿{"ATLAS": {"SPRITES":[ 
+{"SPRITE" : {"name": "0000","x":1888,"y":5,"w":552,"h":440,"rotated": false}},
+{"SPRITE" : {"name": "0001","x":2440,"y":5,"w":552,"h":440,"rotated": false}},
+{"SPRITE" : {"name": "0002","x":1888,"y":5,"w":552,"h":440,"rotated": false}},
+{"SPRITE" : {"name": "0003","x":1888,"y":445,"w":583,"h":345,"rotated": false}},
+{"SPRITE" : {"name": "0004","x":2992,"y":404,"w":578,"h":351,"rotated": false}},
+{"SPRITE" : {"name": "0005","x":2992,"y":5,"w":576,"h":399,"rotated": false}},
+{"SPRITE" : {"name": "0006","x":5,"y":5,"w":649,"h":618,"rotated": false}},
+{"SPRITE" : {"name": "0007","x":654,"y":5,"w":634,"h":584,"rotated": false}},
+{"SPRITE" : {"name": "0008","x":1288,"y":5,"w":600,"h":533,"rotated": false}},
+{"SPRITE" : {"name": "0009","x":2471,"y":445,"w":466,"h":363,"rotated": false}},
+{"SPRITE" : {"name": "0010","x":3568,"y":5,"w":452,"h":387,"rotated": false}},
+{"SPRITE" : {"name": "0011","x":3570,"y":392,"w":452,"h":387,"rotated": false}},
+{"SPRITE" : {"name": "0012","x":3683,"y":779,"w":218,"h":407,"rotated": false}},
+{"SPRITE" : {"name": "0013","x":3189,"y":755,"w":252,"h":393,"rotated": false}},
+{"SPRITE" : {"name": "0014","x":654,"y":589,"w":277,"h":434,"rotated": false}},
+{"SPRITE" : {"name": "0015","x":5,"y":623,"w":234,"h":495,"rotated": false}},
+{"SPRITE" : {"name": "0016","x":931,"y":589,"w":246,"h":488,"rotated": false}},
+{"SPRITE" : {"name": "0017","x":239,"y":623,"w":245,"h":422,"rotated": false}},
+{"SPRITE" : {"name": "0018","x":3441,"y":779,"w":242,"h":396,"rotated": false}},
+{"SPRITE" : {"name": "0019","x":2937,"y":755,"w":252,"h":402,"rotated": false}},
+{"SPRITE" : {"name": "0020","x":1575,"y":538,"w":286,"h":432,"rotated": false}},
+{"SPRITE" : {"name": "0021","x":1288,"y":538,"w":287,"h":443,"rotated": false}}
+]},
+"meta": {
+"app": "Adobe Animate",
+"version": "22.0.5.191",
+"image": "spritemap1.png",
+"format": "RGBA8888",
+"size": {"w":4027,"h":1191},
+"resolution": "1"
+}
+}

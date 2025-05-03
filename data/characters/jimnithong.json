@@ -1,0 +1,188 @@
+{
+	"version": "1.0.0",
+	"renderType": "sparrow",
+	"offsets": [
+		0,
+		50
+	],
+	"danceEvery": 1,
+	"scale": 1,
+	"name": "Jimnithong",
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"flipX": true,
+	"singTime": 8,
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"assetPath": "characters/jimnithong",
+	"healthIcon": {
+		"isPixel": false,
+		"offsets": [
+			0,
+			0
+		],
+		"scale": 1,
+		"flipX": false,
+		"id": "jimnithong"
+	},
+	"animations": [
+		{
+			"offsets": [
+				0,
+				80
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithidle",
+			"flipX": false,
+			"name": "idle",
+			"looped": false
+		},
+		{
+			"offsets": [
+				0,
+				70
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithleft",
+			"flipX": false,
+			"name": "singLEFT",
+			"looped": false
+		},
+		{
+			"offsets": [
+				-15,
+				25
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithdown",
+			"flipX": false,
+			"name": "singDOWN",
+			"looped": false
+		},
+		{
+			"offsets": [
+				-50,
+				100
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithup",
+			"flipX": false,
+			"name": "singUP",
+			"looped": false
+		},
+		{
+			"offsets": [
+				-55,
+				70
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithright",
+			"flipX": false,
+			"name": "singRIGHT",
+			"looped": false
+		},
+		{
+			"offsets": [
+				-25,
+				80
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithHEY!",
+			"flipX": false,
+			"name": "hey",
+			"looped": false
+		},
+		{
+			"offsets": [
+				-5,
+				95
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithlose",
+			"flipX": false,
+			"name": "firstDeath",
+			"looped": false
+		},
+		{
+			"offsets": [
+				-25,
+				80
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithHEY!",
+			"flipX": false,
+			"name": "hey",
+			"looped": false
+		},
+		{
+			"offsets": [
+				7,
+				65
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithACK!",
+			"flipX": false,
+			"name": "ack",
+			"looped": false
+		},
+		{
+			"offsets": [
+				-48,
+				110
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithMISSNOTEup",
+			"flipX": false,
+			"name": "singUPmiss",
+			"looped": false
+		},
+		{
+			"offsets": [
+				-15,
+				60
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithMISSNOTEdown",
+			"flipX": false,
+			"name": "singDOWNmiss",
+			"looped": false
+		},
+		{
+			"offsets": [
+				0,
+				105
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithMISSNOTEleft",
+			"flipX": false,
+			"name": "singLEFTmiss",
+			"looped": false
+		},
+		{
+			"offsets": [
+				-55,
+				110
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithMISSNOTEright",
+			"flipX": false,
+			"name": "singRIGHTmiss",
+			"looped": false
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+  "timeFormat": "ms",
+  "artist": "ThatJan",
+  "songName": "Grade! (Excellent)",
+  "timeChanges": [{ "d": 4, "n": 4, "t": 0, "bt": [4, 4, 4, 4], "bpm": 128 }],
+  "generatedBy": "Manual (by ThatJan)",
+  "looped": true,
+  "version": "2.0.0"
+}
