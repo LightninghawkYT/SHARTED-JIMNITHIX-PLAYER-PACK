@@ -12,7 +12,7 @@
 		0,
 		0
 	],
-	"flipX": false,
+	"flipX": true,
 	"singTime": 8,
 	"startingAnimation": "idle",
 	"isPixel": false,
@@ -24,7 +24,7 @@
 			0
 		],
 		"scale": 1,
-		"flipX": true,
+		"flipX": false,
 		"id": "jimnithong"
 	},
 	"animations": [
