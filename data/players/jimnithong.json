@@ -2,7 +2,8 @@
   "version": "1.0.0",
   "name": "Jimnithong",
   "ownedChars": [
-    "jimnithong"
+    "jimnithong",
+    "jimnithong-dark"
   ],
   "showUnownedChars": false,
   "unlocked": true,
