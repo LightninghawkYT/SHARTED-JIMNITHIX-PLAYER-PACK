@@ -18,183 +18,195 @@
 	"isPixel": false,
 	"assetPath": "characters/jimnithong",
 	"healthIcon": {
+		"isPixel": false,
 		"offsets": [
 			0,
 			0
 		],
-		"isPixel": false,
 		"scale": 1,
-		"id": "jimnithong",
-		"flipX": false
+		"flipX": false,
+		"id": "jimnithong"
 	},
 	"animations": [
 		{
-			"flipY": false,
 			"offsets": [
 				0,
 				80
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithidle",
-			"looped": false,
+			"flipX": false,
 			"name": "idle",
-			"flipX": false
+			"looped": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				0,
 				70
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithleft",
-			"looped": false,
+			"flipX": false,
 			"name": "singLEFT",
-			"flipX": false
+			"looped": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				-15,
 				25
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithdown",
-			"looped": false,
+			"flipX": false,
 			"name": "singDOWN",
-			"flipX": false
+			"looped": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				-50,
 				100
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithup",
-			"looped": false,
+			"flipX": false,
 			"name": "singUP",
-			"flipX": false
+			"looped": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				-55,
 				70
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithright",
-			"looped": false,
+			"flipX": false,
 			"name": "singRIGHT",
-			"flipX": false
+			"looped": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				-25,
 				80
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithHEY!",
-			"looped": false,
+			"flipX": false,
 			"name": "hey",
-			"flipX": false
+			"looped": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				-5,
 				95
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithlose",
-			"looped": false,
+			"flipX": false,
 			"name": "firstDeath",
-			"flipX": false
+			"looped": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				-25,
 				80
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithHEY!",
-			"looped": false,
+			"flipX": false,
 			"name": "hey",
-			"flipX": false
+			"looped": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				7,
 				65
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithACK!",
-			"looped": false,
+			"flipX": false,
 			"name": "ack",
-			"flipX": false
+			"looped": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				-48,
 				110
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithMISSNOTEup",
-			"looped": false,
+			"flipX": false,
 			"name": "singUPmiss",
-			"flipX": false
+			"looped": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				-15,
 				60
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithMISSNOTEdown",
-			"looped": false,
+			"flipX": false,
 			"name": "singDOWNmiss",
-			"flipX": false
+			"looped": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				0,
 				105
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithMISSNOTEleft",
-			"looped": false,
+			"flipX": false,
 			"name": "singLEFTmiss",
-			"flipX": false
+			"looped": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				-55,
 				110
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithMISSNOTEright",
-			"looped": false,
+			"flipX": false,
 			"name": "singRIGHTmiss",
-			"flipX": false
+			"looped": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				0,
 				85
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithong YEAH cheer",
-			"looped": false,
+			"flipX": false,
 			"name": "cheer",
-			"flipX": false
+			"looped": false
+		},
+		{
+			"offsets": [
+				0,
+				55
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithahem",
+			"flipX": false,
+			"name": "ahem",
+			"looped": false
 		}
 	]
 }

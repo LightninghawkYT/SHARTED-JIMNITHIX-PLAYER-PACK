@@ -2,7 +2,6 @@
   "version": "2.2.4",
   "songName": "Bopeebo (Jimnithix)",
   "artist": "ThatJan",
-  "charter": "ThatJan + LightningHawkYT)",
   "divisions": 96,
   "looped": false,
   "offsets": {
@@ -41,7 +40,7 @@
     "previewStart": 0,
     "previewEnd": 10700
   },
-  "generatedBy": "Friday Night Funkin' - v0.6.3",
+  "generatedBy": "Friday Night Funkin' - v0.6.4",
   "timeFormat": "ms",
   "timeChanges": [
     {
