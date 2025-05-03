@@ -24,7 +24,7 @@
 			0
 		],
 		"scale": 1,
-		"flipX": false,
+		"flipX": true,
 		"id": "jimnithong"
 	},
 	"animations": [
