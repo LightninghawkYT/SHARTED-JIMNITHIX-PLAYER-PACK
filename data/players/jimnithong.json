@@ -96,7 +96,7 @@
     "perfect": [
       {
         "renderType": "animateatlas",
-        "assetPath": "shared:resultScreen/results-pico/resultsPERFECT",
+        "assetPath": "shared:resultScreen/results-jimnithong/resultsPERFECT",
         "zIndex": 500,
         "scale": 0.88,
         "offsets": [0, 0],
