@@ -5,11 +5,11 @@ import funkin.play.cutscene.VideoCutscene;
 
 import funkin.play.PlayStatePlaylist;
 
-class UghSong extends Song {
+class UghJimnithixSong extends Song {
   var hasPlayedCutscene:Bool;
 
 	public function new() {
-		super('ugh');
+		super('ugh-jimnithix');
 
     hasPlayedCutscene = false;
 	}
@@ -20,7 +20,7 @@ class UghSong extends Song {
     if (!PlayStatePlaylist.isStoryMode) hasPlayedCutscene = true;
 
     if (!hasPlayedCutscene) {
-      trace('Pausing countdown to play a video cutscene (`ugh`)');
+      trace('Pausing countdown to play a video cutscene (`ugh-jimnithix`)');
 
       hasPlayedCutscene = true;
 
@@ -31,7 +31,7 @@ class UghSong extends Song {
 	}
 
   function startVideo() {
-    VideoCutscene.play(Paths.videos('ughCutscene'));
+    VideoCutscene.play(Paths.videos('granny_for_the_phone_official_music_video'));
   }
 
   /**
