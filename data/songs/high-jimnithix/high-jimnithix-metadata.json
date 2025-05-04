@@ -13,7 +13,7 @@
   },
   "playData": {
     "songVariations": [
-      "erect"
+      ""
     ],
     "difficulties": [
       "easy",
@@ -27,10 +27,10 @@
       "instrumental": "",
       "altInstrumentals": [      ],
       "opponentVocals": [
-        "mom-car"
+        "mom"
       ],
       "playerVocals": [
-        "bf-car"
+        "jimnithong"
       ]
     },
     "stage": "limoRideErect",
