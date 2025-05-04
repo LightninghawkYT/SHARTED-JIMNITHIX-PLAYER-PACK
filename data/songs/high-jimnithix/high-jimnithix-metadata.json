@@ -2,7 +2,7 @@
   "version": "2.2.4",
   "songName": "High (Jimnithix)",
   "artist": "ThatJan",
-  "charter": "ThatJan + LightningHawkYT",
+  "charter": "LightningHawkYT + ThatJan",
   "divisions": 96,
   "looped": false,
   "offsets": {
@@ -27,7 +27,7 @@
       "instrumental": "",
       "altInstrumentals": [      ],
       "opponentVocals": [
-        "mom"
+        "mom-car"
       ],
       "playerVocals": [
         "jimnithong"
