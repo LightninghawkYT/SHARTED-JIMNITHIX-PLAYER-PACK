@@ -27,7 +27,7 @@
       "instrumental": "",
       "altInstrumentals": [      ],
       "opponentVocals": [
-        "mom"
+        "mom-car"
       ],
       "playerVocals": [
         "jimnithong"
@@ -38,11 +38,11 @@
     "ratings": {
       "easy": 1,
       "normal": 2,
-      "hard": 3
+      "hard": 4
     },
     "album": "volume1",
-    "previewStart": 0,
-    "previewEnd": 15000
+    "previewStart": 3400,
+    "previewEnd": 20200
   },
   "generatedBy": "Friday Night Funkin' - v0.6.4",
   "timeFormat": "ms",
