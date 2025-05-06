@@ -1,6 +1,6 @@
 {
   "version": "2.2.4",
-  "songName": "Bopeebo (Jimnithix)",
+  "songName": "Fresh (Jimnithix)",
   "artist": "ThatJan",
   "charter": "ThatJan + LightningHawkYT",
   "divisions": 96,
@@ -34,12 +34,13 @@
     "stage": "mainStageErect",
     "noteStyle": "funkin",
     "ratings": {
-      "easy": 1,
-      "hard": 2,
-      "normal": 2
+      "easy": 2,
+      "normal": 3,
+      "hard": 4
     },
+    "album": "volume1",
     "previewStart": 0,
-    "previewEnd": 10700
+    "previewEnd": 15000
   },
   "generatedBy": "Friday Night Funkin' - v0.6.4",
   "timeFormat": "ms",
@@ -47,7 +48,7 @@
     {
       "t": 0,
       "b": 0,
-      "bpm": 100,
+      "bpm": 120,
       "n": 4,
       "d": 4,
       "bt": [
