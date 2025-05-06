@@ -32,12 +32,13 @@
     },
     "stage": "tankmanBattlefieldErect",
     "noteStyle": "funkin",
+    "album": "jimnithixv1",
+    "stickerPack": "jimnithgang",
     "ratings": {
       "easy": 1,
       "normal": 4,
       "hard": 6
     },
-    "album": "jimnithixv1",
     "previewStart": 0,
     "previewEnd": 0
   },

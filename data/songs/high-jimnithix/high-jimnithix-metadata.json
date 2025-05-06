@@ -35,12 +35,13 @@
     },
     "stage": "limoRideErect",
     "noteStyle": "funkin",
+    "album": "jimnithixv1",
+    "stickerPack": "jimnithgang",
     "ratings": {
       "easy": 1,
       "normal": 2,
       "hard": 4
     },
-    "album": "volume1",
     "previewStart": 3400,
     "previewEnd": 20200
   },
