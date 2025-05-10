@@ -157,6 +157,35 @@
 	"char": 0,
 	"ease": "CLASSIC"
 }
+    },
+    {
+      "t": 78600,
+      "e": "ZoomCamera",
+      "v": {
+	"ease": "smoothStepInOut",
+	"duration": 16,
+	"mode": "stage",
+	"zoom": 0.9
+}
+    },
+    {
+      "t": 80000,
+      "e": "PlayAnimation",
+      "v": {
+	"anim": "cheer",
+	"force": true,
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 81200,
+      "e": "ZoomCamera",
+      "v": {
+	"ease": "sineIn",
+	"duration": 30,
+	"mode": "stage",
+	"zoom": 1
+}
     }
   ],
   "notes": {
@@ -2843,12 +2872,6 @@
       {
         "t": 79800,
         "d": 2,
-        "l": 150,
-        "p": [        ]
-      },
-      {
-        "t": 80000,
-        "d": 3,
         "l": 150,
         "p": [        ]
       }

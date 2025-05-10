@@ -18,195 +18,183 @@
 	"isPixel": false,
 	"assetPath": "characters/jimnithong",
 	"healthIcon": {
-		"isPixel": false,
 		"offsets": [
 			0,
 			0
 		],
+		"isPixel": false,
 		"scale": 1,
-		"flipX": false,
-		"id": "jimnithong"
+		"id": "jimnithong",
+		"flipX": false
 	},
 	"animations": [
 		{
+			"flipY": false,
 			"offsets": [
 				0,
 				80
 			],
-			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithidle",
-			"flipX": false,
+			"looped": false,
 			"name": "idle",
-			"looped": false
+			"flipX": false
 		},
 		{
-			"offsets": [
-				0,
-				70
-			],
 			"flipY": false,
+			"offsets": [
+				2,
+				71
+			],
 			"frameRate": 24,
 			"prefix": "jimnithleft",
-			"flipX": false,
+			"looped": false,
 			"name": "singLEFT",
-			"looped": false
+			"flipX": false
 		},
 		{
+			"flipY": false,
 			"offsets": [
 				-15,
 				25
 			],
-			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithdown",
-			"flipX": false,
+			"looped": false,
 			"name": "singDOWN",
-			"looped": false
+			"flipX": false
 		},
 		{
+			"flipY": false,
 			"offsets": [
 				-50,
-				100
+				111
 			],
-			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithup",
-			"flipX": false,
+			"looped": false,
 			"name": "singUP",
-			"looped": false
+			"flipX": false
 		},
 		{
-			"offsets": [
-				-55,
-				70
-			],
 			"flipY": false,
+			"offsets": [
+				-58,
+				73
+			],
 			"frameRate": 24,
 			"prefix": "jimnithright",
-			"flipX": false,
+			"looped": false,
 			"name": "singRIGHT",
-			"looped": false
+			"flipX": false
 		},
 		{
-			"offsets": [
-				-25,
-				80
-			],
 			"flipY": false,
+			"offsets": [
+				-17,
+				90
+			],
 			"frameRate": 24,
 			"prefix": "jimnithHEY!",
-			"flipX": false,
+			"looped": false,
 			"name": "hey",
-			"looped": false
+			"flipX": false
 		},
 		{
-			"offsets": [
-				-5,
-				95
-			],
 			"flipY": false,
-			"frameRate": 24,
-			"prefix": "jimnithlose",
-			"flipX": false,
-			"name": "firstDeath",
-			"looped": false
-		},
-		{
 			"offsets": [
-				-25,
-				80
+				-17,
+				90
 			],
-			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithHEY!",
-			"flipX": false,
+			"looped": false,
 			"name": "hey",
-			"looped": false
+			"flipX": false
 		},
 		{
+			"flipY": false,
 			"offsets": [
-				7,
+				-13,
 				65
 			],
-			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithACK!",
-			"flipX": false,
+			"looped": false,
 			"name": "ack",
-			"looped": false
+			"flipX": false
 		},
 		{
-			"offsets": [
-				-48,
-				110
-			],
 			"flipY": false,
+			"offsets": [
+				-49,
+				145
+			],
 			"frameRate": 24,
 			"prefix": "jimnithMISSNOTEup",
-			"flipX": false,
+			"looped": false,
 			"name": "singUPmiss",
-			"looped": false
+			"flipX": false
 		},
 		{
-			"offsets": [
-				-15,
-				60
-			],
 			"flipY": false,
+			"offsets": [
+				-16,
+				57
+			],
 			"frameRate": 24,
 			"prefix": "jimnithMISSNOTEdown",
-			"flipX": false,
+			"looped": false,
 			"name": "singDOWNmiss",
-			"looped": false
+			"flipX": false
 		},
 		{
+			"flipY": false,
 			"offsets": [
 				0,
-				105
+				75
 			],
-			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithMISSNOTEleft",
-			"flipX": false,
+			"looped": false,
 			"name": "singLEFTmiss",
-			"looped": false
+			"flipX": false
 		},
 		{
-			"offsets": [
-				-55,
-				110
-			],
 			"flipY": false,
+			"offsets": [
+				-53,
+				73
+			],
 			"frameRate": 24,
 			"prefix": "jimnithMISSNOTEright",
-			"flipX": false,
+			"looped": false,
 			"name": "singRIGHTmiss",
-			"looped": false
+			"flipX": false
 		},
 		{
-			"offsets": [
-				0,
-				85
-			],
 			"flipY": false,
+			"offsets": [
+				-4,
+				62
+			],
 			"frameRate": 24,
 			"prefix": "jimnithong YEAH cheer",
-			"flipX": false,
+			"looped": false,
 			"name": "cheer",
-			"looped": false
+			"flipX": false
 		},
 		{
+			"flipY": false,
 			"offsets": [
-				0,
+				5,
 				55
 			],
-			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithahem",
-			"flipX": false,
+			"looped": false,
 			"name": "ahem",
-			"looped": false
+			"flipX": false
 		}
 	]
 }
