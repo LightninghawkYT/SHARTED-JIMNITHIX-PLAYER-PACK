@@ -42,8 +42,8 @@
 		},
 		{
 			"offsets": [
-				0,
-				70
+				2,
+				71
 			],
 			"flipY": false,
 			"frameRate": 24,
@@ -54,8 +54,8 @@
 		},
 		{
 			"offsets": [
-				-15,
-				25
+				-25,
+				30
 			],
 			"flipY": false,
 			"frameRate": 24,
@@ -67,7 +67,7 @@
 		{
 			"offsets": [
 				-50,
-				100
+				111
 			],
 			"flipY": false,
 			"frameRate": 24,
@@ -78,8 +78,8 @@
 		},
 		{
 			"offsets": [
-				-55,
-				70
+				-58,
+				73
 			],
 			"flipY": false,
 			"frameRate": 24,
@@ -90,8 +90,8 @@
 		},
 		{
 			"offsets": [
-				-25,
-				80
+				-17,
+				90
 			],
 			"flipY": false,
 			"frameRate": 24,
@@ -102,20 +102,8 @@
 		},
 		{
 			"offsets": [
-				-5,
-				95
-			],
-			"flipY": false,
-			"frameRate": 24,
-			"prefix": "jimnithlose",
-			"flipX": false,
-			"name": "firstDeath",
-			"looped": false
-		},
-		{
-			"offsets": [
-				-25,
-				80
+				-17,
+				90
 			],
 			"flipY": false,
 			"frameRate": 24,
@@ -126,20 +114,8 @@
 		},
 		{
 			"offsets": [
-				7,
-				65
-			],
-			"flipY": false,
-			"frameRate": 24,
-			"prefix": "jimnithACK!",
-			"flipX": false,
-			"name": "ack",
-			"looped": false
-		},
-		{
-			"offsets": [
-				-48,
-				110
+				-49,
+				145
 			],
 			"flipY": false,
 			"frameRate": 24,
@@ -150,8 +126,8 @@
 		},
 		{
 			"offsets": [
-				-15,
-				60
+				-26,
+				62
 			],
 			"flipY": false,
 			"frameRate": 24,
@@ -163,7 +139,7 @@
 		{
 			"offsets": [
 				0,
-				105
+				75
 			],
 			"flipY": false,
 			"frameRate": 24,
@@ -174,8 +150,8 @@
 		},
 		{
 			"offsets": [
-				-55,
-				110
+				-53,
+				73
 			],
 			"flipY": false,
 			"frameRate": 24,
@@ -186,8 +162,8 @@
 		},
 		{
 			"offsets": [
-				0,
-				85
+				-4,
+				62
 			],
 			"flipY": false,
 			"frameRate": 24,
@@ -196,6 +172,5 @@
 			"name": "cheer",
 			"looped": false
 		}
-
 	]
 }
