@@ -1,6 +1,6 @@
 {
   "version": "2.2.4",
-  "songName": "Fresh (Jimnithix)",
+  "songName": "Bopeebo (Jimnithix)",
   "artist": "ThatJan",
   "charter": "ThatJan + LightningHawkYT",
   "divisions": 96,
@@ -22,26 +22,20 @@
       "player": "jimnithong",
       "girlfriend": "nene",
       "opponent": "dad",
-      "instrumental": "",
-      "altInstrumentals": [      ],
-      "opponentVocals": [
-        "dad"
-      ],
-      "playerVocals": [
-        "jimnithong"
-      ]
+      "instrumental": "jimnithix",
+      "altInstrumentals": ["pico", ""]
     },
     "stage": "mainStageErect",
     "noteStyle": "funkin",
     "album": "jimnithixv1",
     "stickerPack": "jimnithgang",
     "ratings": {
-      "easy": 2,
-      "normal": 3,
-      "hard": 4
+      "easy": 1,
+      "hard": 2,
+      "normal": 2
     },
     "previewStart": 0,
-    "previewEnd": 15000
+    "previewEnd": 10700
   },
   "generatedBy": "Friday Night Funkin' - v0.6.4",
   "timeFormat": "ms",
@@ -49,7 +43,7 @@
     {
       "t": 0,
       "b": 0,
-      "bpm": 120,
+      "bpm": 100,
       "n": 4,
       "d": 4,
       "bt": [

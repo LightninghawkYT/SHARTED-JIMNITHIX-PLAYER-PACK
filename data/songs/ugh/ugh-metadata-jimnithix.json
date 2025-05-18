@@ -1,8 +1,7 @@
 {
   "version": "2.2.4",
-  "songName": "High (Jimnithix)",
-  "artist": "ThatJan",
-  "charter": "LightningHawkYT + ThatJan",
+  "songName": "Ugh (Jimnithix)",
+  "artist": "LightningHawkYT (ft. ThatJan)",
   "divisions": 96,
   "looped": false,
   "offsets": {
@@ -12,9 +11,7 @@
     "altVocals": {    }
   },
   "playData": {
-    "songVariations": [
-      ""
-    ],
+    "songVariations": [    ],
     "difficulties": [
       "easy",
       "normal",
@@ -22,36 +19,30 @@
     ],
     "characters": {
       "player": "jimnithong",
-      "girlfriend": "nene-christmas",
-      "opponent": "mom-car",
-      "instrumental": "",
-      "altInstrumentals": [      ],
-      "opponentVocals": [
-        "mom-car"
-      ],
-      "playerVocals": [
-        "jimnithong"
-      ]
+      "girlfriend": "nene",
+      "opponent": "tankman",
+      "instrumental": "jimnithix",
+      "altInstrumentals": [      ]
     },
-    "stage": "limoRideErect",
+    "stage": "tankmanBattlefieldErect",
     "noteStyle": "funkin",
     "album": "jimnithixv1",
     "stickerPack": "jimnithgang",
     "ratings": {
       "easy": 1,
-      "normal": 2,
-      "hard": 4
+      "normal": 4,
+      "hard": 6
     },
-    "previewStart": 3400,
-    "previewEnd": 20200
+    "previewStart": 0,
+    "previewEnd": 0
   },
-  "generatedBy": "Friday Night Funkin' - v0.6.4",
+  "generatedBy": "Friday Night Funkin' - v0.6.2",
   "timeFormat": "ms",
   "timeChanges": [
     {
       "t": 0,
       "b": 0,
-      "bpm": 125,
+      "bpm": 160,
       "n": 4,
       "d": 4,
       "bt": [

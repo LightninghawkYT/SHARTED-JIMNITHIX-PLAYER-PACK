@@ -1,7 +1,8 @@
 {
   "version": "2.2.4",
-  "songName": "Pico (Jimnithix)",
-  "artist": "LightningHawkYT (ft. ImTheShepherd)",
+  "songName": "Fresh (Jimnithix)",
+  "artist": "ThatJan",
+  "charter": "ThatJan + LightninghawkYT",
   "divisions": 96,
   "looped": false,
   "offsets": {
@@ -20,35 +21,29 @@
     "characters": {
       "player": "jimnithong",
       "girlfriend": "nene",
-      "opponent": "pico",
-      "instrumental": "",
-      "altInstrumentals": [      ],
-      "opponentVocals": [
-        "pico"
-      ],
-      "playerVocals": [
-        "jimnithong"
-      ]
+      "opponent": "dad",
+      "instrumental": "jimnithix",
+      "altInstrumentals": ["pico", ""]
     },
-    "stage": "phillyTrainErect",
+    "stage": "mainStageErect",
     "noteStyle": "funkin",
     "album": "jimnithixv1",
     "stickerPack": "jimnithgang",
     "ratings": {
-      "easy": 0,
-      "normal": 0,
-      "hard": 7
+      "easy": 2,
+      "normal": 3,
+      "hard": 4
     },
     "previewStart": 0,
-    "previewEnd": 0
+    "previewEnd": 15000
   },
-  "generatedBy": "Friday Night Funkin' - v0.6.3",
+  "generatedBy": "Friday Night Funkin' - v0.6.4",
   "timeFormat": "ms",
   "timeChanges": [
     {
       "t": 0,
       "b": 0,
-      "bpm": 150,
+      "bpm": 120,
       "n": 4,
       "d": 4,
       "bt": [

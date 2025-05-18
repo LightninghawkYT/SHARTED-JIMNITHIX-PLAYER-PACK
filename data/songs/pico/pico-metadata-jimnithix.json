@@ -1,7 +1,7 @@
 {
   "version": "2.2.4",
-  "songName": "Ugh (Jimnithix)",
-  "artist": "LightningHawkYT (ft. ThatJan)",
+  "songName": "Pico (Jimnithix)",
+  "artist": "LightningHawkYT (ft. ImTheShepherd)",
   "divisions": 96,
   "looped": false,
   "offsets": {
@@ -20,35 +20,29 @@
     "characters": {
       "player": "jimnithong",
       "girlfriend": "nene",
-      "opponent": "tankman",
-      "instrumental": "",
-      "altInstrumentals": [      ],
-      "opponentVocals": [
-        "tankman"
-      ],
-      "playerVocals": [
-        "jimnithong"
-      ]
+      "opponent": "pico",
+      "instrumental": "jimnithix",
+      "altInstrumentals": [ "", "pico"]
     },
-    "stage": "tankmanBattlefieldErect",
+    "stage": "phillyTrainErect",
     "noteStyle": "funkin",
     "album": "jimnithixv1",
     "stickerPack": "jimnithgang",
     "ratings": {
-      "easy": 1,
-      "normal": 4,
-      "hard": 6
+      "easy": 0,
+      "normal": 0,
+      "hard": 7
     },
     "previewStart": 0,
     "previewEnd": 0
   },
-  "generatedBy": "Friday Night Funkin' - v0.6.2",
+  "generatedBy": "Friday Night Funkin' - v0.6.3",
   "timeFormat": "ms",
   "timeChanges": [
     {
       "t": 0,
       "b": 0,
-      "bpm": 160,
+      "bpm": 150,
       "n": 4,
       "d": 4,
       "bt": [
