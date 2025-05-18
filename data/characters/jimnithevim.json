@@ -1,0 +1,140 @@
+{
+	"version": "1.0.0",
+	"renderType": "sparrow",
+	"offsets": [
+		0,
+		50
+	],
+	"danceEvery": 1,
+	"scale": 1,
+	"name": "Jimnithevim",
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"flipX": true,
+	"singTime": 8,
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"assetPath": "characters/jimnithevim",
+	"healthIcon": {
+		"offsets": [
+			0,
+			0
+		],
+		"isPixel": false,
+		"scale": 1,
+		"id": "jimnithevim",
+		"flipX": false
+	},
+	"animations": [
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				80
+			],
+			"frameRate": 24,
+			"prefix": "jimnithevimidle",
+			"looped": false,
+			"name": "idle",
+			"flipX": false
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				27,
+				91
+			],
+			"frameRate": 24,
+			"prefix": "jimnithevimleftnote",
+			"looped": false,
+			"name": "singLEFT",
+			"flipX": false
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				5,
+				50
+			],
+			"frameRate": 24,
+			"prefix": "jimnithevimdownnote",
+			"looped": false,
+			"name": "singDOWN",
+			"flipX": false
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-45,
+				101
+			],
+			"frameRate": 24,
+			"prefix": "jimnithevimupnote",
+			"looped": false,
+			"name": "singUP",
+			"flipX": false
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-48,
+				78
+			],
+			"frameRate": 24,
+			"prefix": "jimnithevimrightnote",
+			"looped": false,
+			"name": "singRIGHT",
+			"flipX": false
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-49,
+				145
+			],
+			"frameRate": 24,
+			"prefix": "jimnithevimMISSNOTEup",
+			"looped": false,
+			"name": "singUPmiss",
+			"flipX": false
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-16,
+				57
+			],
+			"frameRate": 24,
+			"prefix": "jimnithevimMISSNOTEdown",
+			"looped": false,
+			"name": "singDOWNmiss",
+			"flipX": false
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				75
+			],
+			"frameRate": 24,
+			"prefix": "jimnithevimMISSNOTEleft",
+			"looped": false,
+			"name": "singLEFTmiss",
+			"flipX": false
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-53,
+				73
+			],
+			"frameRate": 24,
+			"prefix": "jimnithevimMISSNOTEright",
+			"looped": false,
+			"name": "singRIGHTmiss",
+			"flipX": false
+		}
+	]
+}
