@@ -1,7 +1,7 @@
 {
   "version": "2.2.4",
-  "songName": "Ugh (Jimnithix)",
-  "artist": "LightningHawkYT (ft. ThatJan)",
+  "songName": "Spookeez (Jimnithix)",
+  "artist": "ThatJan",
   "divisions": 96,
   "looped": false,
   "offsets": {
@@ -18,31 +18,30 @@
       "hard"
     ],
     "characters": {
-      "player": "jimnithong",
-      "girlfriend": "nene",
-      "opponent": "tankman",
+      "player": "jimnithong-dark",
+      "girlfriend": "nene-dark",
+      "opponent": "spooky-dark",
       "instrumental": "jimnithix",
       "altInstrumentals": ["pico", ""]
     },
-    "stage": "tankmanBattlefieldErect",
+    "stage": "spookyMansionErect",
     "noteStyle": "funkin",
     "album": "jimnithixv1",
     "stickerPack": "jimnithgang",
     "ratings": {
-      "easy": 1,
-      "normal": 4,
-      "hard": 6
+      "normal": 0,
+      "hard": 8
     },
     "previewStart": 0,
     "previewEnd": 0
   },
-  "generatedBy": "Friday Night Funkin' - v0.6.2",
+  "generatedBy": "Friday Night Funkin' - v0.6.4",
   "timeFormat": "ms",
   "timeChanges": [
     {
       "t": 0,
       "b": 0,
-      "bpm": 160,
+      "bpm": 150,
       "n": 4,
       "d": 4,
       "bt": [
