@@ -2,8 +2,8 @@
   "version": "2.0.0",
   "scrollSpeed": {
     "easy": 1.4,
-    "normal": 1.6,
-    "hard": 2.3
+    "hard": 2.3,
+    "normal": 1.6
   },
   "events": [
     {
@@ -150,20 +150,20 @@
       "t": 46000,
       "e": "ZoomCamera",
       "v": {
-	"ease": "linear",
 	"duration": 4,
-	"zoom": 0.85,
-	"mode": "stage"
+	"ease": "linear",
+	"mode": "stage",
+	"zoom": 0.85
 }
     },
     {
       "t": 48000,
       "e": "ZoomCamera",
       "v": {
-	"ease": "linear",
 	"duration": 2,
-	"zoom": 1,
-	"mode": "stage"
+	"ease": "linear",
+	"mode": "stage",
+	"zoom": 1
 }
     },
     {
@@ -198,10 +198,10 @@
       "t": 54500,
       "e": "ZoomCamera",
       "v": {
-	"ease": "linear",
 	"duration": 2,
-	"zoom": 0.85,
-	"mode": "stage"
+	"ease": "linear",
+	"mode": "stage",
+	"zoom": 0.85
 }
     },
     {
@@ -215,10 +215,10 @@
       "t": 56500,
       "e": "ZoomCamera",
       "v": {
-	"ease": "linear",
 	"duration": 2,
-	"zoom": 1,
-	"mode": "stage"
+	"ease": "linear",
+	"mode": "stage",
+	"zoom": 1
 }
     },
     {
@@ -236,57 +236,51 @@
 }
     },
     {
-      "t": 68500,
+      "t": 68250,
       "e": "FocusCamera",
       "v": {
-	"x": 0,
 	"duration": 4,
+	"x": 0,
 	"y": 0,
+	"char": 0,
+	"ease": "linear"
+}
+    },
+    {
+      "t": 68500,
+      "e": "ZoomCamera",
+      "v": {
+	"duration": 8,
 	"ease": "linear",
-	"char": 0
+	"mode": "stage",
+	"zoom": 0.8
+}
+    },
+    {
+      "t": 72000,
+      "e": "ZoomCamera",
+      "v": {
+	"duration": 64,
+	"ease": "linear",
+	"mode": "stage",
+	"zoom": 1.4
 }
     },
     {
       "t": 72000,
       "e": "FocusCamera",
       "v": {
-	"char": 2
-}
-    },
-    {
-      "t": 72125,
-      "e": "ZoomCamera",
-      "v": {
-	"ease": "linear",
-	"duration": 63,
-	"zoom": 0.8,
-	"mode": "stage"
-}
-    },
-    {
-      "t": 79958.3333333333,
-      "e": "FocusCamera",
-      "v": {
-	"x": 0,
 	"duration": 63.5,
+	"x": 0,
 	"y": 0,
-	"ease": "linear",
-	"char": 0
-}
-    },
-    {
-      "t": 80000,
-      "e": "ZoomCamera",
-      "v": {
-	"ease": "linear",
-	"duration": 64,
-	"zoom": 1.4,
-	"mode": "stage"
+	"char": 0,
+	"ease": "linear"
 }
     }
   ],
   "notes": {
     "easy": [    ],
+    "normal": [    ],
     "hard": [
       {
         "t": 0,
@@ -2263,90 +2257,6 @@
         "p": [        ]
       },
       {
-        "t": 80250,
-        "d": 1,
-        "l": 0,
-        "p": [        ]
-      },
-      {
-        "t": 80375,
-        "d": 3,
-        "l": 0,
-        "p": [        ]
-      },
-      {
-        "t": 80500,
-        "d": 2,
-        "l": 125,
-        "p": [        ]
-      },
-      {
-        "t": 80750,
-        "d": 0,
-        "l": 0,
-        "p": [        ]
-      },
-      {
-        "t": 81000,
-        "d": 3,
-        "l": 187.5,
-        "p": [        ]
-      },
-      {
-        "t": 81375,
-        "d": 1,
-        "l": 0,
-        "p": [        ]
-      },
-      {
-        "t": 81750,
-        "d": 0,
-        "l": 312.5,
-        "p": [        ]
-      },
-      {
-        "t": 82250,
-        "d": 2,
-        "l": 0,
-        "p": [        ]
-      },
-      {
-        "t": 82375,
-        "d": 1,
-        "l": 0,
-        "p": [        ]
-      },
-      {
-        "t": 82500,
-        "d": 3,
-        "l": 125,
-        "p": [        ]
-      },
-      {
-        "t": 82750,
-        "d": 0,
-        "l": 0,
-        "p": [        ]
-      },
-      {
-        "t": 83000,
-        "d": 2,
-        "l": 187.5,
-        "p": [        ]
-      },
-      {
-        "t": 83375,
-        "d": 1,
-        "l": 0,
-        "p": [        ]
-      },
-      {
-        "t": 83750,
-        "d": 1,
-        "l": 312.5,
-        "p": [        ]
-      },
-      {
         "t": 84250,
         "d": 1,
         "l": 0,
@@ -2418,8 +2328,7 @@
         "l": 437.5,
         "p": [        ]
       }
-    ],
-    "normal": [    ]
+    ]
   },
   "generatedBy": "Friday Night Funkin' - v0.6.4"
 }
