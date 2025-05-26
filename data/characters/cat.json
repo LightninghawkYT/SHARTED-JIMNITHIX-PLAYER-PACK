@@ -1,0 +1,96 @@
+{
+	"offsets": [
+		205,
+		284
+	],
+	"version": "1.0.0",
+	"scale": 2,
+	"flipX": false,
+	"name": "Your Name Here",
+	"singTime": 6,
+	"assetPath": "characters/cat",
+	"healthIcon": {
+		"id": null
+	},
+	"generatedBy": "Nova Character Editor v0.1.2",
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"frameRate": 5,
+			"prefix": "cat left",
+			"indices": [],
+			"name": "danceLeft",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"frameRate": 5,
+			"prefix": "cat right",
+			"indices": [],
+			"name": "danceRight",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				0,
+				-130
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "cat cheer",
+			"indices": [],
+			"name": "cheer",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				0,
+				-130
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "cat cheer",
+			"indices": [],
+			"name": "combo100",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				0,
+				-130
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "cat cheer",
+			"indices": [],
+			"name": "combo50",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				10,
+				-170
+			],
+			"flipY": false,
+			"frameRate": 1,
+			"prefix": "cat sad",
+			"indices": [],
+			"name": "sad",
+			"looped": false,
+			"flipX": false
+		}
+	]
+}
