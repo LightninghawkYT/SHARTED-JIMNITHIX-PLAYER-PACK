@@ -1,0 +1,57 @@
+{
+  "version": "2.2.4",
+  "songName": "Cocoa (Jimnithix)",
+  "artist": "LightningHawkYT",
+  "looped": false,
+  "offsets": {
+    "instrumental": 0,
+    "altInstrumentals": {    },
+    "vocals": {    },
+    "altVocals": {    }
+  },
+  "playData": {
+    "songVariations": [    ],
+    "difficulties": [
+      "easy",
+      "normal",
+      "hard"
+    ],
+    "characters": {
+      "player": "jimnithong",
+      "girlfriend": "nene-christmas",
+      "opponent": "parents-christmas",
+      "instrumental": "",
+      "opponentVocals": [
+        "parents-christmas-jimnithix"
+      ],
+      "playerVocals": [
+        "jimnithong-christmas-jimnithix"
+      ],
+      "altInstrumentals":["pico", ""]
+    },
+    "stage": "mallXmasErect",
+    "noteStyle": "funkin",
+    "ratings": {
+      "hard": 0
+    },
+    "previewStart": 0,
+    "previewEnd": 0
+  },
+  "generatedBy": "Friday Night Funkin' - v0.6.4",
+  "timeFormat": "ms",
+  "timeChanges": [
+    {
+      "t": 0,
+      "b": 0,
+      "bpm": 100,
+      "n": 4,
+      "d": 4,
+      "bt": [
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ]
+}
