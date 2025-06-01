@@ -7,7 +7,7 @@
 	],
 	"danceEvery": 1,
 	"scale": 1,
-	"name": "Jimnithong (Dark)",
+	"name": "Jimnithong (Christmas)",
 	"cameraOffsets": [
 		0,
 		0
@@ -16,7 +16,7 @@
 	"singTime": 8,
 	"startingAnimation": "idle",
 	"isPixel": false,
-	"assetPath": "characters/jimnithong-dark",
+	"assetPath": "characters/jimnithongCHRISTMAS",
 	"healthIcon": {
 		"isPixel": false,
 		"offsets": [
@@ -158,18 +158,6 @@
 			"prefix": "jimnithMISSNOTEright",
 			"flipX": false,
 			"name": "singRIGHTmiss",
-			"looped": false
-		},
-		{
-			"offsets": [
-				-4,
-				62
-			],
-			"flipY": false,
-			"frameRate": 24,
-			"prefix": "jimnithong YEAH cheer",
-			"flipX": false,
-			"name": "cheer",
 			"looped": false
 		}
 	]

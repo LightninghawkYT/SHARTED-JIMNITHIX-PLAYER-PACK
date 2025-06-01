@@ -1,0 +1,4 @@
+[
+  { "op": "add", "path": "/playData/characters/altInstrumentals/-", "value": "jimnithix" },
+  { "op": "add", "path": "/playData/songVariations/-", "value": "jimnithix" }
+]

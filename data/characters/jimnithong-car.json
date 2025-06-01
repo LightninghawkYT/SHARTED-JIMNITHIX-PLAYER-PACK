@@ -7,7 +7,7 @@
 	],
 	"danceEvery": 1,
 	"scale": 1,
-	"name": "Jimnithong (Dark)",
+	"name": "Jimnithong (Car)",
 	"cameraOffsets": [
 		0,
 		0
@@ -16,7 +16,7 @@
 	"singTime": 8,
 	"startingAnimation": "idle",
 	"isPixel": false,
-	"assetPath": "characters/jimnithong-dark",
+	"assetPath": "characters/jimnithongcar",
 	"healthIcon": {
 		"isPixel": false,
 		"offsets": [
@@ -40,6 +40,19 @@
 			"name": "idle",
 			"looped": false
 		},
+				{
+			"offsets": [
+				0,
+				80
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithidle",
+			"flipX": false,
+			"name": "idle-hold",
+			"frameIndices": [10, 11, 12, 13],
+			"looped": true
+		},
 		{
 			"offsets": [
 				2,
@@ -52,6 +65,19 @@
 			"name": "singLEFT",
 			"looped": false
 		},
+			{
+			"offsets": [
+				2,
+				71
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithleft",
+			"flipX": false,
+			"name": "singLEFT-hold",
+			"frameIndices": [10, 11, 12, 13],
+			"looped": true
+		},
 		{
 			"offsets": [
 				-25,
@@ -63,6 +89,19 @@
 			"flipX": false,
 			"name": "singDOWN",
 			"looped": false
+		},
+			{
+			"offsets": [
+				-25,
+				30
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithdown",
+			"flipX": false,
+			"name": "singDOWN-hold",
+			"frameIndices": [10, 11, 12, 13],
+			"looped": true
 		},
 		{
 			"offsets": [
@@ -78,6 +117,19 @@
 		},
 		{
 			"offsets": [
+				-50,
+				111
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithup",
+			"flipX": false,
+			"name": "singUP-hold",
+			"frameIndices": [10, 11, 12, 13],
+			"looped": true
+		},
+		{
+			"offsets": [
 				-58,
 				73
 			],
@@ -88,29 +140,18 @@
 			"name": "singRIGHT",
 			"looped": false
 		},
-		{
+				{
 			"offsets": [
-				-17,
-				90
+				-58,
+				73
 			],
 			"flipY": false,
 			"frameRate": 24,
-			"prefix": "jimnithHEY!",
+			"prefix": "jimnithright",
 			"flipX": false,
-			"name": "hey",
-			"looped": false
-		},
-		{
-			"offsets": [
-				-17,
-				90
-			],
-			"flipY": false,
-			"frameRate": 24,
-			"prefix": "jimnithHEY!",
-			"flipX": false,
-			"name": "hey",
-			"looped": false
+			"name": "singRIGHT-hold",
+			"frameIndices": [10, 11, 12, 13],
+			"looped": true
 		},
 		{
 			"offsets": [
@@ -158,18 +199,6 @@
 			"prefix": "jimnithMISSNOTEright",
 			"flipX": false,
 			"name": "singRIGHTmiss",
-			"looped": false
-		},
-		{
-			"offsets": [
-				-4,
-				62
-			],
-			"flipY": false,
-			"frameRate": 24,
-			"prefix": "jimnithong YEAH cheer",
-			"flipX": false,
-			"name": "cheer",
 			"looped": false
 		}
 	]
