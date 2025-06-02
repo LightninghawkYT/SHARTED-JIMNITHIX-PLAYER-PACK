@@ -2,7 +2,7 @@
   "version": "2.2.4",
   "songName": "Eggnog (Jimnithix)",
   "artist": "ImTheShepherd (ft. ThatJan)",
-  "charter": "ImTheShepherd",
+  "charter": "ImTheShepherd + LightningHawkYT",
   "divisions": 96,
   "looped": false,
   "offsets": {
@@ -19,22 +19,20 @@
       "hard"
     ],
     "characters": {
-      "player": "jimnithong",
+      "player": "jimnithong-christmas",
       "girlfriend": "nene-christmas",
       "opponent": "parents-christmas",
-      "instrumental": "",
-      "altInstrumentals": [      ],
-      "opponentVocals": [
-        "dad"
-      ],
-      "playerVocals": [
-        "bf"
-      ]
+      "instrumental": "jimnithix",
+      "altInstrumentals": ["pico", ""]
     },
     "stage": "mallXmasErect",
     "noteStyle": "funkin",
+    "stickerPack": "jimnithgang",
+    "album": "jimnithixv1",
     "ratings": {
-      "easy": 0
+      "easy": 2,
+      "normal": 5,
+      "hard": 8
     },
     "previewStart": 0,
     "previewEnd": 0
