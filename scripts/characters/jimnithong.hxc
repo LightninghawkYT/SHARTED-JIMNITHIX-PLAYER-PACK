@@ -27,3 +27,14 @@ class Jimnithong extends ScriptedSparrowCharacter {
 		}
 	}
 }
+class Jimnithong extends ScriptedSparrowCharacter {
+    function new() {
+        super("jimnithong");
+    }
+
+    override function playAnimation(name:String, restart:Bool = false, ignoreOther:Bool = false, reversed:Bool = false):Void {
+        super.playAnimation(name, restart, ignoreOther, reversed);
+        if (name == "cheer") PlayState.instance.vocals.playerVolume = 1;
+        if (name == "ahem") PlayState.instance.vocals.playerVolume = 1;
+    }
+}
