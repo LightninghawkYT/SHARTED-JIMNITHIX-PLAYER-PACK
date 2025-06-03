@@ -53,6 +53,14 @@
 }
     },
     {
+      "t": 41550,
+      "e": "SetCameraBop",
+      "v": {
+	"rate": 1,
+	"intensity": 1.5
+}
+    },
+    {
       "t": 41600,
       "e": "FocusCamera",
       "v": {
@@ -104,6 +112,14 @@
 }
     },
     {
+      "t": 48050,
+      "e": "SetCameraBop",
+      "v": {
+	"rate": 4,
+	"intensity": 1
+}
+    },
+    {
       "t": 54400,
       "e": "FocusCamera",
       "v": {
@@ -111,10 +127,39 @@
 }
     },
     {
+      "t": 60000,
+      "e": "PlayAnimation",
+      "v": {
+	"anim": "yourebad",
+	"force": false,
+	"target": "boyfriend"
+}
+    },
+    {
+      "t": 60150,
+      "e": "ZoomCamera",
+      "v": {
+	"ease": "expoOut",
+	"duration": 32,
+	"mode": "stage",
+	"zoom": 1.15
+}
+    },
+    {
       "t": 60800,
       "e": "FocusCamera",
       "v": {
 	"char": 1
+}
+    },
+    {
+      "t": 60850,
+      "e": "ZoomCamera",
+      "v": {
+	"ease": "expoOut",
+	"duration": 32,
+	"mode": "stage",
+	"zoom": 1
 }
     },
     {
@@ -177,6 +222,14 @@
 }
     },
     {
+      "t": 86350,
+      "e": "SetCameraBop",
+      "v": {
+	"rate": 1,
+	"intensity": 1.5
+}
+    },
+    {
       "t": 86400,
       "e": "FocusCamera",
       "v": {
@@ -218,6 +271,14 @@
 	"y": 0,
 	"char": 0,
 	"ease": "INSTANT"
+}
+    },
+    {
+      "t": 92750,
+      "e": "SetCameraBop",
+      "v": {
+	"rate": 4,
+	"intensity": 1
 }
     },
     {

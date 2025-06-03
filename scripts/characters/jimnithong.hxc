@@ -1,0 +1,29 @@
+import funkin.play.character.ScriptedSparrowCharacter;
+import funkin.play.PlayState;
+import funkin.play.character.CharacterType;
+class Jimnithong extends ScriptedSparrowCharacter {
+    function new() {
+        super("jimnithong");
+    }
+
+	function onNoteHit(event:HitNoteScriptEvent)
+	{
+		// Override the hit note animation.
+
+		if (event.note.noteData.getMustHitNote() && characterType == CharacterType.BF)
+		{
+			switch (event.note.kind)
+			{
+				case "ugh":
+					holdTimer = 0;
+					this.playAnimation('ack', false);
+				case "ugh":
+					holdTimer = 0;
+					this.playAnimation('ack', false);
+				default:
+					holdTimer = 0;
+					this.playSingAnimation(event.note.noteData.getDirection(), false);
+			}
+		}
+	}
+}

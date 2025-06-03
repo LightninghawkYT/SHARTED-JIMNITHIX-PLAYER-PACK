@@ -1,0 +1,12 @@
+import funkin.play.character.ScriptedSparrowCharacter;
+import funkin.play.PlayState;
+class JimnithongChristmas extends ScriptedSparrowCharacter {
+    function new() {
+        super("jimnithong-christmas");
+    }
+
+    override function playAnimation(name:String, restart:Bool = false, ignoreOther:Bool = false, reversed:Bool = false):Void {
+        super.playAnimation(name, restart, ignoreOther, reversed);
+        if (name == "yourebad") PlayState.instance.vocals.playerVolume = 1;
+    }
+}
