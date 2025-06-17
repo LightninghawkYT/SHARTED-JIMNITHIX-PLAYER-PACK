@@ -1,0 +1,60 @@
+{
+  "version": "2.2.4",
+  "songName": "South (Jimnithix)",
+  "artist": "LightningHawkYT (ft. ImTheShepherd)",
+  "divisions": 96,
+  "looped": false,
+  "offsets": {
+    "instrumental": 0,
+    "altInstrumentals": {    },
+    "vocals": {    },
+    "altVocals": {    }
+  },
+  "playData": {
+    "songVariations": [
+    ],
+    "difficulties": [
+      "easy",
+      "normal",
+      "hard"
+    ],
+    "characters": {
+      "player": "jimnithong-dark",
+      "girlfriend": "nene-dark",
+      "opponent": "spooky-dark",
+      "instrumental": "jimnithix",
+      "altInstrumentals": [
+        "pico",
+        ""
+      ]
+    },
+    "stage": "spookyMansionErect",
+    "noteStyle": "funkin",
+    "ratings": {
+      "easy": 1,
+      "hard": 2,
+      "normal": 7
+    },
+    "album": "jimnithixv1",
+    "stickerPack": "jimnithgang",
+    "previewStart": 0,
+    "previewEnd": 15000
+  },
+  "generatedBy": "Friday Night Funkin' - v0.6.4",
+  "timeFormat": "ms",
+  "timeChanges": [
+    {
+      "t": 0,
+      "b": 0,
+      "bpm": 165,
+      "n": 4,
+      "d": 4,
+      "bt": [
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ]
+}
