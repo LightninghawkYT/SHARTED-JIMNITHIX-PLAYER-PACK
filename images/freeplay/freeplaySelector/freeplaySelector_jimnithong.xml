@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="freeplaySelector_jimnithong.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="arrow pointer loop instance 10000" x="0" y="0" width="50" height="91"/>
+	<SubTexture name="arrow pointer loop instance 10001" x="0" y="0" width="50" height="91"/>
+	<SubTexture name="arrow pointer loop instance 10002" x="0" y="0" width="50" height="91"/>
+	<SubTexture name="arrow pointer loop instance 10003" x="70" y="0" width="50" height="91"/>
+	<SubTexture name="arrow pointer loop instance 10004" x="70" y="0" width="50" height="91"/>
+	<SubTexture name="arrow pointer loop instance 10005" x="70" y="0" width="50" height="91"/>
+	<SubTexture name="arrow pointer loop instance 10006" x="140" y="0" width="50" height="91"/>
+	<SubTexture name="arrow pointer loop instance 10007" x="140" y="0" width="50" height="91"/>
+	<SubTexture name="arrow pointer loop instance 10008" x="140" y="0" width="50" height="91"/>
+	<SubTexture name="arrow pointer loop instance 10009" x="0" y="111" width="50" height="91"/>
+	<SubTexture name="arrow pointer loop instance 10010" x="0" y="111" width="50" height="91"/>
+	<SubTexture name="arrow pointer loop instance 10011" x="0" y="111" width="50" height="91"/>
+	<SubTexture name="arrow pointer loop instance 10012" x="70" y="111" width="50" height="91"/>
+	<SubTexture name="arrow pointer loop instance 10013" x="70" y="111" width="50" height="91"/>
+	<SubTexture name="arrow pointer loop instance 10014" x="70" y="111" width="50" height="91"/>
+</TextureAtlas>

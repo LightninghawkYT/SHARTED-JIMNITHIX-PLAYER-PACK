@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "bgAsset": "freeplay/freeplayBGweek1-pico",
+  "selectorAsset": "freeplay/freeplaySelector/freeplaySelector_jimnithong",
+  "numbersAsset": "digital_numbers_jimnithong",
+  "capsuleAsset": "freeplay/freeplayCapsule/capsule/freeplayCapsule_jimnithong",
+  "capsuleTextColors": ["#29cc00", "#00cc5f"],
+  "startDelay": 1.45
+}
