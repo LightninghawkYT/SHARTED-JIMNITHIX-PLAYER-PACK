@@ -4,6 +4,16 @@ class JimnithongChristmas extends ScriptedSparrowCharacter {
     function new() {
         super("jimnithong-christmas");
     }
+	function onCreate(event:ScriptEvent) {
+		super.onCreate(event);
+
+
+		GameOverSubState.musicSuffix = '-jimnithong';
+		GameOverSubState.blueBallSuffix = '-jimnithong';
+
+		PauseSubState.musicSuffix = '-jimnithong';
+	}
+    
 
     override function playAnimation(name:String, restart:Bool = false, ignoreOther:Bool = false, reversed:Bool = false):Void {
         super.playAnimation(name, restart, ignoreOther, reversed);

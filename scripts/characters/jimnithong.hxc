@@ -1,10 +1,23 @@
 import funkin.play.character.ScriptedSparrowCharacter;
 import funkin.play.PlayState;
 import funkin.play.character.CharacterType;
+import funkin.play.GameOverSubState;
+import funkin.play.PauseSubState;
 class Jimnithong extends ScriptedSparrowCharacter {
     function new() {
         super("jimnithong");
     }
+	function onCreate(event:ScriptEvent) {
+		super.onCreate(event);
+
+
+		GameOverSubState.musicSuffix = '-jimnithong';
+
+		PauseSubState.musicSuffix = '-jimnithong';
+	}
+
+
+
 
     override function playAnimation(name:String, restart:Bool = false, ignoreOther:Bool = false, reversed:Bool = false):Void {
         super.playAnimation(name, restart, ignoreOther, reversed);
