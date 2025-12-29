@@ -1,22 +1,22 @@
 {
-	"danceEvery": 1,
+	"version": "1.0.0",
+	"renderType": "sparrow",
 	"offsets": [
 		0,
 		50
 	],
-	"renderType": "sparrow",
-	"version": "1.0.0",
+	"danceEvery": 1,
 	"scale": 1,
-	"flipX": true,
+	"name": "Jimnithong (Opponent)",
 	"cameraOffsets": [
 		0,
 		0
 	],
-	"name": "Jimnithong (Opponent)",
-	"flipY": false,
-	"isPixel": false,
+	"flipX": true,
 	"startingAnimation": "idle",
+	"isPixel": false,
 	"singTime": 8,
+	"flipY": false,
 	"healthIcon": {
 		"offsets": [
 			0,
@@ -28,80 +28,91 @@
 		"flipX": false
 	},
 	"assetPath": "characters/jimnithong",
-	"generatedBy": "Nova Character Editor v0.1.2",
+	"generatedBy": "Nova Character Editor v3.0.0",
 	"animations": [
 		{
-			"flipY": false,
 			"offsets": [
 				0,
 				80
 			],
-			"frameRate": 24,
-			"frameIndices": null,
+			"frameIndices": [],
 			"prefix": "jimnithidle",
-			"looped": false,
 			"name": "idle",
-			"flipX": false
+			"looped": false,
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": null
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				-18,
 				71
 			],
-			"frameRate": 24,
+			"frameIndices": [],
 			"prefix": "jimnithleft",
-			"looped": false,
 			"name": "singRIGHT",
-			"flipX": false
+			"looped": false,
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": null
 		},
 		{
-			"flipY": false,
 			"offsets": [
-				25,
+				30,
 				30
 			],
-			"frameRate": 24,
+			"frameIndices": [],
 			"prefix": "jimnithdown",
-			"looped": false,
 			"name": "singDOWN",
-			"flipX": false
+			"looped": false,
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": null
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				10,
 				111
 			],
-			"frameRate": 24,
+			"frameIndices": [],
 			"prefix": "jimnithup",
-			"looped": false,
 			"name": "singUP",
-			"flipX": false
+			"looped": false,
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": null
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				32,
 				73
 			],
-			"frameRate": 24,
+			"frameIndices": [],
 			"prefix": "jimnithright",
-			"looped": false,
 			"name": "singLEFT",
-			"flipX": false
+			"looped": false,
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": null
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				-17,
 				90
 			],
-			"frameRate": 24,
+			"frameIndices": [],
 			"prefix": "jimnithHEY!",
-			"looped": false,
 			"name": "hey",
-			"flipX": false
+			"looped": false,
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": null
 		}
 	]
 }
