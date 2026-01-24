@@ -1,8 +1,9 @@
 {
   "version": "2.2.4",
-  "songName": "Cocoa (Jimnithix)",
-  "artist": "LightningHawkYT",
-  "charter": "LightningHawkYT",
+  "songName": "Eggnog (Jimnithix)",
+  "artist": "ImTheShepherd (ft. ThatJan)",
+  "charter": "ImTheShepherd + LightningHawkYT",
+  "divisions": 96,
   "looped": false,
   "offsets": {
     "instrumental": 0,
@@ -22,27 +23,35 @@
       "girlfriend": "kevim",
       "opponent": "parents-christmas",
       "instrumental": "jimnithix",
-      "altInstrumentals":["pico", ""]
+      "altInstrumentals": [
+        "pico",
+        ""
+      ],
+      "opponentVocals": [
+        "parents-christmas"
+      ],
+      "playerVocals": [
+        "jimnithong-christmas"
+      ]
     },
     "stage": "mallXmasErect",
     "noteStyle": "funkin",
-    "stickerPack": "jimnithgang",
-    "album": "jimnithixv1",
     "ratings": {
       "easy": 2,
-      "normal": 4,
-      "hard": 7
+      "normal": 5,
+      "hard": 8
     },
+    "album": "jimnithixv1",
     "previewStart": 0,
     "previewEnd": 0
   },
-  "generatedBy": "Friday Night Funkin' - v0.6.4",
+  "generatedBy": "Friday Night Funkin' - v0.7.5",
   "timeFormat": "ms",
   "timeChanges": [
     {
       "t": 0,
       "b": 0,
-      "bpm": 100,
+      "bpm": 150,
       "n": 4,
       "d": 4,
       "bt": [
