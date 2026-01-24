@@ -2,8 +2,8 @@
   "version": "2.0.0",
   "scrollSpeed": {
     "easy": 1.4,
-    "normal": 1.6,
-    "hard": 2.3
+    "hard": 2.3,
+    "normal": 1.6
   },
   "events": [
     {
@@ -143,17 +143,19 @@
       "t": 46000,
       "e": "FocusCamera",
       "v": {
-	"char": 2
+	"char": -1,
+	"x": 500,
+	"y": 400
 }
     },
     {
       "t": 46062.5,
       "e": "ZoomCamera",
       "v": {
-	"duration": 4,
 	"ease": "expoOut",
-	"mode": "stage",
-	"zoom": 0.85
+	"duration": 4,
+	"zoom": 0.85,
+	"mode": "stage"
 }
     },
     {
@@ -167,10 +169,10 @@
       "t": 48062.5,
       "e": "ZoomCamera",
       "v": {
-	"duration": 4,
 	"ease": "expoOut",
-	"mode": "stage",
-	"zoom": 1
+	"duration": 4,
+	"zoom": 1,
+	"mode": "stage"
 }
     },
     {
@@ -191,17 +193,19 @@
       "t": 54000,
       "e": "FocusCamera",
       "v": {
-	"char": 2
+	"char": -1,
+	"x": 500,
+	"y": 400
 }
     },
     {
       "t": 54083.3333333333,
       "e": "ZoomCamera",
       "v": {
-	"duration": 32,
 	"ease": "expoOut",
-	"mode": "stage",
-	"zoom": 0.85
+	"duration": 32,
+	"zoom": 0.85,
+	"mode": "stage"
 }
     },
     {
@@ -215,10 +219,10 @@
       "t": 56062.5,
       "e": "ZoomCamera",
       "v": {
-	"duration": 32,
 	"ease": "expoOut",
-	"mode": "stage",
-	"zoom": 1
+	"duration": 32,
+	"zoom": 1,
+	"mode": "stage"
 }
     },
     {
@@ -239,47 +243,48 @@
       "t": 68500,
       "e": "FocusCamera",
       "v": {
-	"duration": 4,
 	"x": 0,
+	"duration": 4,
 	"y": 0,
-	"char": 0,
-	"ease": "CLASSIC"
+	"ease": "CLASSIC",
+	"char": 0
 }
     },
     {
       "t": 68562.5,
       "e": "ZoomCamera",
       "v": {
-	"duration": 32,
 	"ease": "expoOut",
-	"mode": "stage",
-	"zoom": 0.8
+	"duration": 32,
+	"zoom": 0.8,
+	"mode": "stage"
 }
     },
     {
       "t": 72000,
       "e": "FocusCamera",
       "v": {
-	"duration": 63.5,
 	"x": 0,
+	"duration": 63.5,
 	"y": 0,
-	"char": 0,
-	"ease": "linear"
+	"ease": "linear",
+	"char": 0
 }
     },
     {
       "t": 72062.5,
       "e": "ZoomCamera",
       "v": {
-	"duration": 64,
 	"ease": "quadIn",
-	"mode": "stage",
-	"zoom": 1.4
+	"duration": 64,
+	"zoom": 1.4,
+	"mode": "stage"
 }
     }
   ],
   "notes": {
     "easy": [    ],
+    "normal": [    ],
     "hard": [
       {
         "t": 0,
@@ -2027,8 +2032,7 @@
         "l": 437.5,
         "p": [        ]
       }
-    ],
-    "normal": [    ]
+    ]
   },
-  "generatedBy": "Friday Night Funkin' - v0.6.4"
+  "generatedBy": "Friday Night Funkin' - v0.7.5"
 }

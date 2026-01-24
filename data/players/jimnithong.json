@@ -12,6 +12,7 @@
   "freeplayStyle": "jimnithong",
   "freeplayDJ": {
     "assetPath": "freeplay/freeplay-jimnithong",
+    "applyStageMatrix": true,
     "text1": "PICO",
     "text2": "GOD DAMN HE DOWN ON THE NUT",
     "text3": "ZEBOIM DAMN IMA NUT",
