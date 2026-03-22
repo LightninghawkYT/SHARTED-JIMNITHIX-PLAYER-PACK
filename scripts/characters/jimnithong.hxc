@@ -32,7 +32,7 @@ class JimnithongCharacter extends ScriptedSparrowCharacter {
 		{
 			switch (event.note.kind)
 			{
-				case "ugh":
+				case "jimnithugh":
 					holdTimer = 0;
 					this.playAnimation('ack', false);
 				default:
