@@ -13,9 +13,9 @@
   "freeplayDJ": {
     "assetPath": "freeplay/freeplay-jimnithong",
     "applyStageMatrix": true,
-    "text1": "PICO",
-    "text2": "GOD DAMN HE DOWN ON THE NUT",
-    "text3": "ZEBOIM DAMN IMA NUT",
+    "text1": "YEAH",
+    "text2": "THIS IS UNUSED, YEP YEP",
+    "text3": "IF THIS WERE IMPLEMENTED INTO THE GAME THEN THIS TEXT WOULD PROBABLY BE TOO LONG TO BE PROPERLY DISPLAYED IN THE SCREEN CORRECTLY BUT SINCE IT'S NOT IT'S OKAY",
     "fistPump": {
       "introStartFrame": 0,
       "introEndFrame": 3,
@@ -89,7 +89,8 @@
         "zIndex": 500,
         "scale": 0.88,
         "offsets": [385, 82],
-        "loopFrame": 91
+        "loopFrame": 91,
+		"applyStageMatrix": true
       }
     ],
     "perfect": [
@@ -99,7 +100,8 @@
         "zIndex": 500,
         "scale": 0.88,
         "offsets": [0, 0],
-        "loopFrame": 91
+        "loopFrame": 91,
+		"applyStageMatrix": true
       }
     ],
     "excellent": [
@@ -110,7 +112,8 @@
         "scale": 1.25,
         "offsets": [350, 25],
         "looped": true,
-        "loopFrame": 32
+        "loopFrame": 32,
+		"applyStageMatrix": true
       }
     ],
     "great": [
@@ -121,7 +124,8 @@
         "scale": 1.25,
         "offsets": [350, 25],
         "looped": true,
-        "loopFrame": 32
+        "loopFrame": 32,
+		"applyStageMatrix": true
       }
     ],
     "good": [
@@ -131,7 +135,8 @@
         "zIndex": 500,
         "scale": 1.25,
         "offsets": [350, 25],
-        "loopFrame": 41
+        "loopFrame": 41,
+		"applyStageMatrix": true
       }
     ],
     "loss": [
@@ -140,7 +145,8 @@
         "assetPath": "shared:resultScreen/results-jimnithong/resultsSHIT",
         "zIndex": 500,
         "offsets": [0, 0],
-        "loopFrame": 47
+        "loopFrame": 47,
+		"applyStageMatrix": true
       }
     ]
   }

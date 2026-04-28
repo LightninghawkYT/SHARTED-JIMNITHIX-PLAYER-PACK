@@ -1,38 +1,27 @@
 {
 	"version": "1.0.0",
-	"renderType": "sparrow",
-	"offsets": [
-		0,
-		50
-	],
+	"renderType": "multisparrow",
+	"assetPath": "characters/jimnithong/jimniPoses",
+	"offsets": [0,50],
+	"cameraOffsets": [0,0],
 	"danceEvery": 1,
 	"scale": 1,
 	"name": "Jimnithong",
-	"cameraOffsets": [
-		0,
-		0
-	],
 	"flipX": true,
 	"singTime": 8,
 	"startingAnimation": "idle",
 	"isPixel": false,
-	"assetPath": "characters/jimnithong",
 	"healthIcon": {
+		"id": "jimnithong",
 		"isPixel": false,
-		"offsets": [
-			0,
-			0
-		],
+		"offsets": [0,0],
 		"scale": 1,
-		"flipX": false,
-		"id": "jimnithong"
+		"flipX": false
 	},
+	
 	"animations": [
 		{
-			"offsets": [
-				0,
-				80
-			],
+			"offsets": [0,80],
 			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithidle",
@@ -41,10 +30,7 @@
 			"looped": false
 		},
 		{
-			"offsets": [
-				2,
-				71
-			],
+			"offsets": [2,71],
 			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithleft",
@@ -53,10 +39,7 @@
 			"looped": false
 		},
 		{
-			"offsets": [
-				-25,
-				30
-			],
+			"offsets": [-25,30],
 			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithdown",
@@ -65,10 +48,7 @@
 			"looped": false
 		},
 		{
-			"offsets": [
-				-50,
-				111
-			],
+			"offsets": [-50,111],
 			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithup",
@@ -77,10 +57,7 @@
 			"looped": false
 		},
 		{
-			"offsets": [
-				-58,
-				73
-			],
+			"offsets": [-58,73],
 			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithright",
@@ -89,112 +66,116 @@
 			"looped": false
 		},
 		{
-			"offsets": [
-				-17,
-				90
-			],
+			"offsets": [-17,90],
 			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithHEY!",
 			"flipX": false,
 			"name": "hey",
+			"assetPath": "characters/jimnithong/jimniSpecialAnims",
 			"looped": false
 		},
 		{
-			"offsets": [
-				-17,
-				90
-			],
-			"flipY": false,
-			"frameRate": 24,
-			"prefix": "jimnithHEY!",
-			"flipX": false,
-			"name": "hey",
-			"looped": false
-		},
-		{
-			"offsets": [
-				-13,
-				65
-			],
+			"offsets": [-13,65],
 			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithACK!",
 			"flipX": false,
 			"name": "ack",
+			"assetPath": "characters/jimnithong/jimniSpecialAnims",
 			"looped": false
 		},
 		{
-			"offsets": [
-				-49,
-				145
-			],
+			"offsets": [-49,145],
 			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithMISSNOTEup",
 			"flipX": false,
 			"name": "singUPmiss",
+			"assetPath": "characters/jimnithong/jimniMisses",
 			"looped": false
 		},
 		{
-			"offsets": [
-				-26,
-				62
-			],
+			"offsets": [-26,62],
 			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithMISSNOTEdown",
 			"flipX": false,
 			"name": "singDOWNmiss",
+			"assetPath": "characters/jimnithong/jimniMisses",
 			"looped": false
 		},
 		{
-			"offsets": [
-				0,
-				75
-			],
+			"offsets": [0,75],
 			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithMISSNOTEleft",
 			"flipX": false,
 			"name": "singLEFTmiss",
+			"assetPath": "characters/jimnithong/jimniMisses",
 			"looped": false
 		},
 		{
-			"offsets": [
-				-53,
-				73
-			],
+			"offsets": [-53,73],
 			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithMISSNOTEright",
 			"flipX": false,
 			"name": "singRIGHTmiss",
+			"assetPath": "characters/jimnithong/jimniMisses",
 			"looped": false
 		},
 		{
-			"offsets": [
-				-4,
-				62
-			],
+			"offsets": [-4,62],
 			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithong YEAH cheer",
 			"flipX": false,
 			"name": "cheer",
+			"assetPath": "characters/jimnithong/jimniSpecialAnims",
 			"looped": false
 		},
 		{
-			"offsets": [
-				5,
-				55
-			],
+			"offsets": [5,55],
 			"flipY": false,
 			"frameRate": 24,
 			"prefix": "jimnithahem",
 			"flipX": false,
 			"name": "ahem",
+			"assetPath": "characters/jimnithong/jimniSpecialAnims",
 			"looped": false
+		},
+		{
+			"offsets": [-26,62],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithlose",
+			"flipX": false,
+			"name": "firstDeath",
+			"assetPath": "characters/jimnithong/jimniLoss",
+			"looped": false
+		},
+		{
+			"offsets": [-26,62],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithlose",
+			"flipX": false,
+			"name": "deathLoop",
+			"assetPath": "characters/jimnithong/jimniLoss",
+			"frameIndices": [181],
+			"looped": true
+		},
+		{
+			"offsets": [-26,62],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithlose",
+			"flipX": false,
+			"name": "deathConfirm",
+			"assetPath": "characters/jimnithong/jimniLoss",
+			"frameIndices": [180, 175, 170, 165, 160, 155, 150, 145, 140, 135, 130, 125, 120, 110, 100, 95, 90, 85, 80, 75, 70, 65, 60, 55, 50, 45, 40, 35, 30, 25, 20, 15, 10, 5, 0],
+			"looped": true
 		}
 	]
 }

@@ -1,0 +1,91 @@
+{
+	"version": "1.0.0",
+	"renderType": "sparrow",
+	"assetPath": "characters/jimnithong-old",
+	"offsets": [0,50],
+	"danceEvery": 1,
+	"scale": 1,
+	"name": "Jimnithong (Classic)",
+	"cameraOffsets": [0,0],
+	"flipX": true,
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"singTime": 8,
+	"flipY": false,
+	"healthIcon": {
+		"offsets": [0,0],
+		"isPixel": false,
+		"scale": 1,
+		"id": "jimnithong-old",
+		"flipX": false
+	},
+
+	"animations": [
+		{
+			"offsets": [0,80],
+			"frameIndices": [],
+			"prefix": "jimnithidle",
+			"name": "idle",
+			"looped": false,
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": null
+		},
+		{
+			"offsets": [-18,71],
+			"frameIndices": [],
+			"prefix": "jimnithleft",
+			"name": "singRIGHT",
+			"looped": false,
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": null
+		},
+		{
+			"offsets": [30,30],
+			"frameIndices": [],
+			"prefix": "jimnithdown",
+			"name": "singDOWN",
+			"looped": false,
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": null
+		},
+		{
+			"offsets": [10,111],
+			"frameIndices": [],
+			"prefix": "jimnithup",
+			"name": "singUP",
+			"looped": false,
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": null
+		},
+		{
+			"offsets": [32,73],
+			"frameIndices": [],
+			"prefix": "jimnithright",
+			"name": "singLEFT",
+			"looped": false,
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": null
+		},
+		{
+			"offsets": [-17,90],
+			"frameIndices": [],
+			"prefix": "jimnithHEY!",
+			"name": "hey",
+			"looped": false,
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": null
+		}
+	]
+}

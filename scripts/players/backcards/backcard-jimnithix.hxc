@@ -1,0 +1,294 @@
+import funkin.ui.freeplay.backcards.BackingCard;
+import flixel.math.FlxMath;
+import flixel.FlxSprite;
+import funkin.ui.freeplay.FreeplayState;
+import funkin.util.BitmapUtil;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+import flixel.util.FlxTimer;
+import funkin.graphics.FunkinSprite;
+import flixel.addons.display.FlxBackdrop;
+import funkin.ui.FullScreenScaleMode;
+import funkin.Conductor;
+
+class JimniCard extends BackingCard
+{
+  var scrollBack:FlxBackdrop;
+  var scrollLower:FlxBackdrop;
+  var scrollTop:FlxBackdrop;
+  var scrollMiddle:FlxBackdrop;
+
+  var glow:FlxSprite;
+  var glowDark:FlxSprite;
+  var greenBar:FlxSprite;
+
+  var confirmAtlas:FunkinSprite;
+
+  public function new()
+  {
+    super("jimnithong");
+  }
+
+  public override function enterCharSel():Void
+  {
+    FlxTween.tween(scrollBack.velocity, {x: 0}, 0.8, {ease: FlxEase.sineIn});
+    FlxTween.tween(scrollLower.velocity, {x: 0}, 0.8, {ease: FlxEase.sineIn});
+    FlxTween.tween(scrollTop.velocity, {x: 0}, 0.8, {ease: FlxEase.sineIn});
+    FlxTween.tween(scrollMiddle.velocity, {x: 0}, 0.8, {ease: FlxEase.sineIn});
+  }
+
+  public override function applyExitMovers(?exitMovers:FreeplayState.ExitMoverData, ?exitMoversCharSel:FreeplayState.ExitMoverData):Void
+  {
+    super.applyExitMovers(exitMovers, exitMoversCharSel);
+    if (exitMovers == null || exitMoversCharSel == null) return;
+
+    exitMoversCharSel.set([scrollTop], {
+      y: -90,
+      speed: 0.8,
+      wait: 0.1
+    });
+
+    exitMoversCharSel.set([scrollMiddle], {
+      y: -80,
+      speed: 0.8,
+      wait: 0.1
+    });
+
+    exitMoversCharSel.set([greenBar], {
+      y: -70,
+      speed: 0.8,
+      wait: 0.1
+    });
+
+    exitMoversCharSel.set([scrollLower], {
+      y: -60,
+      speed: 0.8,
+      wait: 0.1
+    });
+
+    exitMoversCharSel.set([scrollBack], {
+      y: -50,
+      speed: 0.8,
+      wait: 0.1
+    });
+  }
+
+  public override function onCreate(event:ScriptEvent):Void
+  {
+    FlxTween.tween(pinkBack, {x: 0}, 0.6, {ease: FlxEase.quartOut});
+    add(pinkBack);
+
+    confirmTextGlow.blend = 0;
+    confirmTextGlow.visible = false;
+
+    confirmGlow.blend = 0;
+
+    confirmGlow.visible = false;
+    confirmGlow2.visible = false;
+
+    scrollBack = new FlxBackdrop(Paths.image('freeplay/backingCards/jimnithong/lowerLoop'), 0x01, 20);
+    scrollBack.setPosition(0, 200);
+    scrollBack.flipX = true;
+    scrollBack.alpha = 0.5;
+    scrollBack.velocity.x = -110;
+    add(scrollBack);
+
+    scrollLower = new FlxBackdrop(Paths.image('freeplay/backingCards/jimnithong/lowerLoop'), 0x01, 20);
+    scrollLower.setPosition(0, 506);
+    scrollLower.velocity.x = 110;
+    add(scrollLower);
+
+    var bitmap = BitmapUtil.scalePartByWidth(Assets.getBitmapData(Paths.image('freeplay/backingCards/jimnithong/greenBar')), FreeplayState.CUTOUT_WIDTH);
+    greenBar = new FlxSprite(0, 239).loadGraphic(bitmap);
+    greenBar.blend = 9;
+    greenBar.alpha = 0.4;
+    add(greenBar);
+
+
+    scrollTop = new FlxBackdrop(Paths.image('freeplay/backingCards/jimnithong/headLoop'), 0x01, 20);
+    scrollTop.setPosition(0, 80);
+    scrollTop.velocity.x = -140;
+    add(scrollTop);
+	
+	//scrollTop = new FlxBackdrop(Paths.image('freeplay/backingCards/jimnithong/topLoop'), 0x01, 20);
+	//scrollTop.setPosition(0, 406);
+    //scrollTop = new FlxBackdrop(null, 0x01, 20);
+    //scrollTop.velocity.x = 220;
+    //add(scrollTop);
+
+    scrollMiddle = new FlxBackdrop(Paths.image('freeplay/backingCards/jimnithong/middleLoop'), 0x01, 15);
+    scrollMiddle.setPosition(0, 325);
+    add(scrollMiddle);
+    scrollMiddle.velocity.x = 220;
+	
+	//scrollBanana = new FlxBackdrop(Paths.image('freeplay/backingCards/jimnithong/bananaSecret'), 0x01, 100);
+    //scrollBanana.setPosition(0, 80);
+    //scrollBanana.velocity.x = -1600;
+    //add(scrollBanana);
+
+    glowDark = new FlxSprite((FreeplayState.CUTOUT_WIDTH * FreeplayState.DJ_POS_MULTI)
+      + -300, 330).loadGraphic(Paths.image('freeplay/backingCards/jimnithong/glow'));
+    glowDark.blend = 9;
+    add(glowDark);
+
+    glow = new FlxSprite((FreeplayState.CUTOUT_WIDTH * FreeplayState.DJ_POS_MULTI) + -300, 330).loadGraphic(Paths.image('freeplay/backingCards/jimnithong/glow'));
+    glow.blend = 0;
+    add(glow);
+
+    greenBar.visible = false;
+    scrollBack.visible = false;
+    scrollLower.visible = false;
+    scrollTop.visible = false;
+    scrollMiddle.visible = false;
+    glow.visible = false;
+    glowDark.visible = false;
+
+    confirmAtlas = FunkinSprite.createTextureAtlas((FreeplayState.CUTOUT_WIDTH * FreeplayState.DJ_POS_MULTI) - 120, 55,
+      "freeplay/backingCards/jimnithong/jimnithong-confirm");
+    confirmAtlas.visible = false;
+    add(confirmAtlas);
+
+    // multiply the scale of the bg by 2
+    // this should be enough, since no phone screen should ever be bigger than whatever
+    // this gets scaled to
+    confirmAtlas.scaleElement(confirmAtlas.getFirstElement("backplate flat blue"), 2, 100);
+    confirmAtlas.scaleElement(confirmAtlas.getFirstElement("pink back"), 2, 100);
+    confirmAtlas.scaleElement(confirmAtlas.getFirstElement("black flash"), 2, 100);
+    confirmAtlas.scaleElement(confirmAtlas.getFirstElement("white flash"), 2, 100);
+    confirmAtlas.scaleElement(confirmAtlas.getFirstElement("blue flash"), 2, 100);
+    confirmAtlas.scaleElement(confirmAtlas.getFirstElement("blue flash 2"), 2, 100);
+    confirmAtlas.scaleElement(confirmAtlas.getFirstElement("pink flash"), 2, 100);
+
+    cardGlow.blend = 0;
+    cardGlow.visible = false;
+    add(cardGlow);
+  }
+
+  override public function confirm():Void
+  {
+    confirmAtlas.visible = true;
+    confirmAtlas.anim.play("");
+
+    FlxTween.color(instance.backingImage, 10 / 24, 0xFFFFFFFF, 0xFFFFFFFF, {
+      ease: FlxEase.expoOut,
+      onUpdate: function(_)
+      {
+        instance.angleMaskShader.extraColor = instance.backingImage.color;
+      }
+    });
+
+    new FlxTimer().start(10 / 24, function(_)
+    {
+      // shoot
+      FlxTween.color(instance.backingImage, 3 / 24, 0xFFFFFFFF, 0xFFFFFFFF, {
+        ease: FlxEase.expoOut,
+        onUpdate: function(_)
+        {
+          instance.angleMaskShader.extraColor = instance.backingImage.color;
+        }
+      });
+    });
+
+    new FlxTimer().start(14 / 24, function(_)
+    {
+      // shoot
+      FlxTween.color(instance.backingImage, 3 / 24, 0xFFFFFFFF, 0xFFFFFFFF, {
+        ease: FlxEase.expoOut,
+        onUpdate: function(_)
+        {
+          instance.angleMaskShader.extraColor = instance.backingImage.color;
+        }
+      });
+    });
+
+    new FlxTimer().start(18 / 24, function(_)
+    {
+      // shoot
+      FlxTween.color(instance.backingImage, 3 / 24, 0xFFFFFFFF, 0xFFFFFFFF, {
+        ease: FlxEase.expoOut,
+        onUpdate: function(_)
+        {
+          instance.angleMaskShader.extraColor = instance.backingImage.color;
+        }
+      });
+    });
+
+    new FlxTimer().start(21 / 24, function(_)
+    {
+      // shoot
+      FlxTween.color(instance.backingImage, 3 / 24, 0xFFFFFFFF, 0xFFFFFFFF, {
+        ease: FlxEase.expoOut,
+        onUpdate: function(_)
+        {
+          instance.angleMaskShader.extraColor = instance.backingImage.color;
+        }
+      });
+    });
+
+    new FlxTimer().start(24 / 24, function(_)
+    {
+      // shoot
+      FlxTween.color(instance.backingImage, 3 / 24, 0xFFFFFFFF, 0xFFFFFFFF, {
+        ease: FlxEase.expoOut,
+        onUpdate: function(_)
+        {
+          instance.angleMaskShader.extraColor = instance.backingImage.color;
+        }
+      });
+    });
+  }
+
+  var beatFreq:Int = 1;
+  var beatFreqList:Array<Int> = [1, 2, 4, 8];
+
+  public override function beatHit():Void
+  {
+    // increases the amount of beats that need to go by to pulse the glow because itd flash like craazy at high bpms.....
+    beatFreq = beatFreqList[Math.floor(Conductor.instance.bpm / 140)];
+
+    if (Conductor.instance.currentBeat % beatFreq != 0) return;
+    FlxTween.cancelTweensOf(glow);
+    FlxTween.cancelTweensOf(glowDark);
+
+    glow.alpha = 1;
+    FlxTween.tween(glow, {alpha: 0}, 16 / 24, {ease: FlxEase.quartOut});
+    glowDark.alpha = 0;
+    FlxTween.tween(glowDark, {alpha: 1}, 18 / 24, {ease: FlxEase.quartOut});
+  }
+
+  public override function introDone():Void
+  {
+    pinkBack.color = 0xFF0080FF;
+
+    greenBar.visible = true;
+    scrollBack.visible = true;
+    scrollLower.visible = true;
+    scrollTop.visible = true;
+    scrollMiddle.visible = true;
+    glowDark.visible = true;
+    glow.visible = true;
+
+    cardGlow.visible = true;
+    FlxTween.tween(cardGlow, {alpha: 0}, 0.45, {ease: FlxEase.sineOut});
+    FlxTween.tween(cardGlow.scale, {x: 1.2, y: 1.2}, 0.45, {ease: FlxEase.sineOut});
+  }
+
+  public override function disappear():Void
+  {
+    FlxTween.color(pinkBack, 0.25, 0xFF0080FF, 0xFF0080FF, {ease: FlxEase.quadOut});
+
+    greenBar.visible = false;
+    scrollBack.visible = false;
+    scrollLower.visible = false;
+    scrollTop.visible = false;
+    scrollMiddle.visible = false;
+    glowDark.visible = false;
+    glow.visible = false;
+
+    cardGlow.visible = true;
+    cardGlow.alpha = 1;
+    cardGlow.scale.set(1, 1);
+    FlxTween.tween(cardGlow, {alpha: 0}, 0.25, {ease: FlxEase.sineOut});
+    FlxTween.tween(cardGlow.scale, {x: 1.2, y: 1.2}, 0.25, {ease: FlxEase.sineOut});
+  }
+}

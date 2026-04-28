@@ -1,9 +1,10 @@
-import funkin.play.character.ScriptedSparrowCharacter;
+import funkin.play.character.MultiSparrowCharacter;
 import funkin.play.PlayState;
 import funkin.play.character.CharacterType;
 import funkin.play.GameOverSubState;
 import funkin.play.PauseSubState;
-class JimnithongCharacter extends ScriptedSparrowCharacter {
+
+class JimnithongCharacter extends MultiSparrowCharacter {
     function new() {
         super("jimnithong");
     }

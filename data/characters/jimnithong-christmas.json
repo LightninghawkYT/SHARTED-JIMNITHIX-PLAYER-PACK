@@ -1,40 +1,28 @@
 {
-	"danceEvery": 1,
-	"offsets": [
-		0,
-		50
-	],
-	"renderType": "sparrow",
 	"version": "1.0.0",
+	"renderType": "multisparrow",
+	"assetPath": "characters/jimnithong/christmas/jimniXmas",
+	"offsets": [0,50],
+	"cameraOffsets": [0,0],
+	"danceEvery": 1,
 	"scale": 1,
-	"flipX": true,
-	"cameraOffsets": [
-		0,
-		0
-	],
 	"name": "Jimnithong (Christmas)",
-	"isPixel": false,
-	"startingAnimation": "idle",
+	"flipX": true,
 	"singTime": 8,
+	"startingAnimation": "idle",
+	"isPixel": false,
 	"healthIcon": {
-		"offsets": [
-			0,
-			0
-		],
-		"isPixel": false,
-		"scale": 1,
 		"id": "jimnithong",
+		"isPixel": false,
+		"offsets": [0,0],
+		"scale": 1,
 		"flipX": false
 	},
-	"assetPath": "characters/jimnithongCHRISTMAS",
-	"generatedBy": "Nova Character Editor v0.1.2",
+	
 	"animations": [
 		{
 			"flipY": false,
-			"offsets": [
-				0,
-				80
-			],
+			"offsets": [0,80],
 			"frameRate": 24,
 			"prefix": "jimnithidle",
 			"looped": false,
@@ -43,10 +31,7 @@
 		},
 		{
 			"flipY": false,
-			"offsets": [
-				2,
-				71
-			],
+			"offsets": [2,71],
 			"frameRate": 24,
 			"prefix": "jimnithleft",
 			"looped": false,
@@ -55,10 +40,7 @@
 		},
 		{
 			"flipY": false,
-			"offsets": [
-				-25,
-				30
-			],
+			"offsets": [-25,30],
 			"frameRate": 24,
 			"prefix": "jimnithdown",
 			"looped": false,
@@ -67,10 +49,7 @@
 		},
 		{
 			"flipY": false,
-			"offsets": [
-				-50,
-				111
-			],
+			"offsets": [-50,111],
 			"frameRate": 24,
 			"prefix": "jimnithup",
 			"looped": false,
@@ -79,10 +58,7 @@
 		},
 		{
 			"flipY": false,
-			"offsets": [
-				-58,
-				73
-			],
+			"offsets": [-58,73],
 			"frameRate": 24,
 			"prefix": "jimnithright",
 			"looped": false,
@@ -91,34 +67,7 @@
 		},
 		{
 			"flipY": false,
-			"offsets": [
-				-17,
-				90
-			],
-			"frameRate": 24,
-			"prefix": "jimnithHEY!",
-			"looped": false,
-			"name": "hey",
-			"flipX": false
-		},
-		{
-			"flipY": false,
-			"offsets": [
-				-17,
-				90
-			],
-			"frameRate": 24,
-			"prefix": "jimnithHEY!",
-			"looped": false,
-			"name": "hey",
-			"flipX": false
-		},
-		{
-			"flipY": false,
-			"offsets": [
-				-49,
-				145
-			],
+			"offsets": [-49,145],
 			"frameRate": 24,
 			"prefix": "jimnithMISSNOTEup",
 			"looped": false,
@@ -127,10 +76,7 @@
 		},
 		{
 			"flipY": false,
-			"offsets": [
-				-26,
-				62
-			],
+			"offsets": [-26,62],
 			"frameRate": 24,
 			"prefix": "jimnithMISSNOTEdown",
 			"looped": false,
@@ -139,10 +85,7 @@
 		},
 		{
 			"flipY": false,
-			"offsets": [
-				0,
-				75
-			],
+			"offsets": [0,75],
 			"frameRate": 24,
 			"prefix": "jimnithMISSNOTEleft",
 			"looped": false,
@@ -151,10 +94,7 @@
 		},
 		{
 			"flipY": false,
-			"offsets": [
-				-53,
-				73
-			],
+			"offsets": [-53,73],
 			"frameRate": 24,
 			"prefix": "jimnithMISSNOTEright",
 			"looped": false,
@@ -163,15 +103,45 @@
 		},
 		{
 			"flipY": false,
-			"offsets": [
-				-7,
-				80
-			],
+			"offsets": [-7,80],
 			"frameRate": 24,
 			"prefix": "you're bad",
 			"looped": false,
 			"name": "yourebad",
+			"assetPath": "characters/jimnithong/christmas/jimniXmasSpecial",
 			"flipX": false
+		},
+				{
+			"offsets": [-26,62],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithlose",
+			"flipX": false,
+			"name": "firstDeath",
+			"assetPath": "characters/jimnithong/christmas/jimniLossXmas",
+			"looped": false
+		},
+		{
+			"offsets": [-26,62],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithlose",
+			"flipX": false,
+			"name": "deathLoop",
+			"assetPath": "characters/jimnithong/christmas/jimniLossXmas",
+			"frameIndices": [181],
+			"looped": true
+		},
+		{
+			"offsets": [-26,62],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "jimnithlose",
+			"flipX": false,
+			"name": "deathConfirm",
+			"assetPath": "characters/jimnithong/christmas/jimniLossXmas",
+			"frameIndices": [180, 175, 170, 165, 160, 155, 150, 145, 140, 135, 130, 125, 120, 110, 100, 95, 90, 85, 80, 75, 70, 65, 60, 55, 50, 45, 40, 35, 30, 25, 20, 15, 10, 5, 0],
+			"looped": true
 		}
 	]
 }

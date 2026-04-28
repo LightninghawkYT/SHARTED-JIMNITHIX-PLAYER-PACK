@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="jimniXmasSpecial.png" width="1957" height="1732">
+	<SubTexture name="you're bad0000" x="5" y="5" width="378" height="572" frameX="-17" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0001" x="5" y="5" width="378" height="572" frameX="-17" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0002" x="1562" y="579" width="368" height="570" frameX="-25" frameY="-2" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0003" x="1562" y="579" width="368" height="570" frameX="-25" frameY="-2" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0004" x="789" y="580" width="390" height="571" frameX="-0" frameY="-1" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0005" x="789" y="1154" width="390" height="571" frameX="-0" frameY="-1" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0006" x="1562" y="5" width="390" height="571" frameX="-0" frameY="-1" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0007" x="386" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0008" x="5" y="580" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0009" x="397" y="580" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0010" x="397" y="580" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0011" x="778" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0012" x="778" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0013" x="778" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0014" x="5" y="1155" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0015" x="5" y="1155" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0016" x="397" y="1155" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0017" x="397" y="1155" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0018" x="1170" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0019" x="1170" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0020" x="1170" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0021" x="1170" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0022" x="1170" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0023" x="1170" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0024" x="1170" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0025" x="1170" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0026" x="1170" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0027" x="1170" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0028" x="1170" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0029" x="1170" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0030" x="1170" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0031" x="1170" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0032" x="1170" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0033" x="1170" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0034" x="1170" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0035" x="1170" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0036" x="1170" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0037" x="1170" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0038" x="1170" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+	<SubTexture name="you're bad0039" x="1170" y="5" width="389" height="572" frameX="-6" frameY="-0" frameWidth="402" frameHeight="573"/>
+</TextureAtlas>

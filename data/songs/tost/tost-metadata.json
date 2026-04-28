@@ -1,0 +1,42 @@
+{
+ "version": "2.2.4",
+ "songName": "Test (Jimnithix)",
+ "artist": "ThatJan",
+ "charter": "ThatJan",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "jimnithong",
+   "girlfriend": "kevim",
+   "opponent": "jimnithong-old",
+   "opponentVocals": [
+    "jimnithong-old-jimnithix"
+   ],
+   "playerVocals": [
+    "jimnithong-jimnithix"
+   ]
+  },
+  "stage": "mainStageErect",
+  "noteStyle": "funkin",
+  "ratings": {
+   "easy": 0,
+   "normal": 0,
+   "hard": 0
+  },
+  "previewEnd": 0.0322240449964847
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.4",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 150,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}
