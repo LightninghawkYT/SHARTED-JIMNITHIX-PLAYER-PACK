@@ -1,0 +1,108 @@
+import funkin.modding.module.Module;
+import funkin.ui.credits.CreditsDataHandler;
+
+class CreditsModule extends Module 
+{
+    var MOD_CREDITS:Array<CreditsData> = 
+    [
+        {
+            header: "FNF BBQ :-) JIMNITHIX EXPANSION",
+            body: 
+            [
+                {
+                    line: "A mod created by TEAM BBQ"
+                }
+            ]
+
+        },
+         {
+            header: "Musicians",
+            body: 
+            [
+                {
+                    line: "LightningHawkYT"
+                },
+                {
+                    line: "ThatJanWithTheMusic"
+                },
+                {
+                    line: "ImTheShepherd"
+                }
+            ]
+        },
+         {
+            header: "Artists",
+            body: 
+            [
+                {
+                    line: "LightningHawkYT"
+                },
+                {
+                    line: "ThatJanWithTheMusic"
+                }
+            ]
+        },
+         {
+            header: "Charters",
+            body: 
+            [
+                {
+                    line: "LightningHawkYT"
+                },
+                {
+                    line: "ThatJanWithTheMusic"
+                },
+                {
+                    line: "ImTheShepherd"
+                }
+            ]
+        },
+         {
+
+            header: "Featured Guest Composers (thus far)",
+            body: 
+            [
+                {
+                    line: "maddysmiles"
+                },
+
+            ]
+        },
+            {
+                header: "Character Design",
+            body: 
+            [
+                {
+                    line: "ThatJanWithTheMusic - Jimnithong Cast"
+                },
+                {
+                    line: "Caser_Real - Bimnithong"
+                }
+            ]
+
+        },
+            {
+            header: "Special Thanks",
+            body: 
+            [
+                {
+                    line: "Jimnithong"
+                }
+            ]
+        }
+    ];
+
+    public function new()
+    {
+        super("CreditsModule");
+        this.active = false;
+
+        FlxG.signals.postGameStart.add(function()
+        {
+            for (i in 0...MOD_CREDITS.length)
+            {
+                CreditsDataHandler.CREDITS_DATA.entries.unshift(MOD_CREDITS[MOD_CREDITS.length - 1 - i]);
+            }
+        });
+    }
+}

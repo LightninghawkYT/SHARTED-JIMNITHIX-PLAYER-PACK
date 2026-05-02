@@ -7,9 +7,108 @@
  },
  "events": [
   {
+   "t": 0,
+   "e": "FocusCamera",
+   "v": {
+	"duration": 4,
+	"x": 780,
+	"y": 370,
+	"ease": "CLASSIC",
+	"char": -1,
+	"easeDir": "In"
+},
+   "_layer": "Layer  2"
+  },
+  {
+   "t": 1920,
+   "e": "ZoomCamera",
+   "v": {
+	"duration": 4,
+	"widescreenScaleX": 0,
+	"widescreenScaleY": 0,
+	"ease": "INSTANT",
+	"mode": "direct",
+	"zoom": 1.4,
+	"easeDir": "In"
+}
+  },
+  {
+   "t": 1920,
+   "e": "FocusCamera",
+   "v": {
+	"duration": 4,
+	"x": 1150,
+	"y": 260,
+	"ease": "INSTANT",
+	"char": -1,
+	"easeDir": "In"
+},
+   "_layer": "Layer  2"
+  },
+  {
+   "t": 2400,
+   "e": "FocusCamera",
+   "v": {
+	"x": 330,
+	"duration": 4,
+	"y": 330,
+	"char": -1,
+	"ease": "INSTANT",
+	"easeDir": "In"
+},
+   "_layer": "Layer  2"
+  },
+  {
+   "t": 2880,
+   "e": "FocusCamera",
+   "v": {
+	"duration": 4,
+	"x": 770,
+	"y": 390,
+	"ease": "INSTANT",
+	"char": -1,
+	"easeDir": "In"
+},
+   "_layer": "Layer  2"
+  },
+  {
+   "t": 3360,
+   "e": "FocusCamera",
+   "v": {
+	"x": 1140,
+	"duration": 4,
+	"y": 690,
+	"char": -1,
+	"ease": "INSTANT",
+	"easeDir": "In"
+},
+   "_layer": "Layer  2"
+  },
+  {
    "t": 3840,
    "e": "FocusCamera",
-   "v": 1
+   "v": {
+	"duration": 4,
+	"x": 0,
+	"y": 0,
+	"char": 1,
+	"ease": "CLASSIC",
+	"easeDir": "In"
+}
+  },
+  {
+   "t": 3960,
+   "e": "ZoomCamera",
+   "v": {
+	"duration": 16,
+	"widescreenScaleX": 0,
+	"widescreenScaleY": 0,
+	"ease": "expo",
+	"mode": "direct",
+	"zoom": 0.9,
+	"easeDir": "Out"
+},
+   "_layer": "Layer  2"
   },
   {
    "t": 11520,
@@ -32,14 +131,30 @@
    "v": 1
   },
   {
-   "t": 42240,
+   "t": 39840,
    "e": "FocusCamera",
-   "v": 0
+   "v": {
+	"x": 0,
+	"duration": 32,
+	"y": 0,
+	"char": 0,
+	"ease": "quint",
+	"easeDir": "InOut"
+},
+   "_layer": "Layer  2"
   },
   {
-   "t": 49920,
+   "t": 47520,
    "e": "FocusCamera",
-   "v": 1
+   "v": {
+	"duration": 32,
+	"x": 0,
+	"y": 0,
+	"ease": "quint",
+	"char": 1,
+	"easeDir": "InOut"
+},
+   "_layer": "Layer  2"
   },
   {
    "t": 57600,
@@ -52,78 +167,73 @@
    "v": 1
   },
   {
-   "t": 72960,
-   "e": "FocusCamera",
-   "v": 0
-  },
-  {
-   "t": 80580,
-   "e": "ZoomCamera",
-   "v": {
-	"ease": "linear",
-	"duration": 8,
-	"mode": "stage",
-	"zoom": 0.95
-}
-  },
-  {
-   "t": 80640,
+   "t": 70560,
    "e": "FocusCamera",
    "v": {
-	"duration": 8,
+	"duration": 32,
 	"x": 0,
 	"y": 0,
-	"char": 2,
-	"ease": "CLASSIC"
-}
+	"ease": "quint",
+	"char": 0,
+	"easeDir": "InOut"
+},
+   "_layer": "Layer  2"
   },
   {
-   "t": 84420,
+   "t": 78240,
+   "e": "FocusCamera",
+   "v": {
+	"x": 0,
+	"duration": 32,
+	"y": 0,
+	"char": 1,
+	"ease": "quint",
+	"easeDir": "InOut"
+},
+   "_layer": "Layer  2"
+  },
+  {
+   "t": 84000,
    "e": "ZoomCamera",
    "v": {
-	"ease": "linear",
-	"duration": 8,
+	"duration": 48,
+	"ease": "cube",
+	"easeDir": "InOut",
 	"mode": "stage",
 	"zoom": 1.1
 }
   },
   {
-   "t": 84480,
+   "t": 84000,
    "e": "FocusCamera",
    "v": {
-	"duration": 4,
+	"duration": 48,
 	"x": 0,
+	"y": 0,
+	"ease": "cube",
+	"char": 0,
+	"easeDir": "InOut"
+},
+   "_layer": "Layer  2"
+  },
+  {
+   "t": 91680,
+   "e": "FocusCamera",
+   "v": {
+	"x": 0,
+	"duration": 48,
 	"y": 0,
 	"char": 1,
-	"ease": "CLASSIC"
-}
+	"ease": "cube",
+	"easeDir": "InOut"
+},
+   "_layer": "Layer  2"
   },
   {
-   "t": 88260,
+   "t": 92160,
    "e": "ZoomCamera",
    "v": {
-	"duration": 8,
-	"ease": "linear",
-	"zoom": 0.95,
-	"mode": "stage"
-}
-  },
-  {
-   "t": 88320,
-   "e": "FocusCamera",
-   "v": {
-	"x": 0,
-	"duration": 4,
-	"y": 0,
-	"ease": "CLASSIC",
-	"char": 2
-}
-  },
-  {
-   "t": 92100,
-   "e": "ZoomCamera",
-   "v": {
-	"duration": 8,
+	"duration": 7,
 	"ease": "cube",
 	"easeDir": "InOut",
 	"zoom": 1.1,
@@ -131,20 +241,28 @@
 }
   },
   {
-   "t": 92160,
-   "e": "FocusCamera",
-   "v": 0
-  },
-  {
    "t": 96000,
    "e": "ZoomCamera",
    "v": {
-	"duration": 8,
-	"ease": "expo",
-	"easeDir": "Out",
+	"duration": 28,
+	"ease": "smootherStep",
+	"easeDir": "InOut",
 	"zoom": 0.95,
 	"mode": "stage"
 }
+  },
+  {
+   "t": 96000,
+   "e": "FocusCamera",
+   "v": {
+	"duration": 32,
+	"x": 0,
+	"y": 0,
+	"ease": "smoothStep",
+	"char": 0,
+	"easeDir": "InOut"
+},
+   "_layer": "Layer 3"
   }
  ],
  "notes": {
@@ -2768,5 +2886,5 @@
   "erect": [],
   "nightmare": []
  },
- "generatedBy": "Friday Night Funkin' - v0.8.4"
+ "generatedBy": "Friday Night Funkin' - v0.8.5"
 }

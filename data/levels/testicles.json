@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "name": "NULL OBJECT ERROR?",
   "titleAsset": "storymenu/titles/tutorial",
-  "visible": true,
+  "visible": false,
   "capsule": {"name": "TEST"},
   "props": [
     {
