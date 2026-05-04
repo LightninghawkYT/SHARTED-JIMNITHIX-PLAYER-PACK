@@ -23,7 +23,7 @@ class CreditsModule extends Module
                     line: "LightningHawkYT"
                 },
                 {
-                    line: "ThatJanWithTheMusic"
+                    line: "ThatJan"
                 },
                 {
                     line: "ImTheShepherd"
@@ -38,7 +38,7 @@ class CreditsModule extends Module
                     line: "LightningHawkYT"
                 },
                 {
-                    line: "ThatJanWithTheMusic"
+                    line: "ThatJan"
                 }
             ]
         },
@@ -50,7 +50,7 @@ class CreditsModule extends Module
                     line: "LightningHawkYT"
                 },
                 {
-                    line: "ThatJanWithTheMusic"
+                    line: "ThatJan"
                 },
                 {
                     line: "ImTheShepherd"
@@ -63,7 +63,7 @@ class CreditsModule extends Module
             body: 
             [
                 {
-                    line: "maddysmiles"
+                    line: "maddiesmiles"
                 },
 
             ]
@@ -73,10 +73,10 @@ class CreditsModule extends Module
             body: 
             [
                 {
-                    line: "ThatJanWithTheMusic - Jimnithong Cast"
+                    line: "ThatJan - Jimnithong Cast"
                 },
                 {
-                    line: "Caser_Real - Bimnithong"
+                    line: "caser_ - Bimnithong"
                 }
             ]
 
