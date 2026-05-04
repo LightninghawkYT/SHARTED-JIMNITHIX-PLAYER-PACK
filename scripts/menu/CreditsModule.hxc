@@ -89,6 +89,42 @@ class CreditsModule extends Module
                     line: "Jimnithong"
                 }
             ]
+		},
+            {
+            header: "ThatJan would like to specially thank",
+            body: 
+            [
+                {
+                    line: "Bluecyberpig"
+                },
+				{
+                    line: "AbsoluteCynder"
+                },
+				{
+                    line: "StarmanOmega"
+                },
+				{
+                    line: "Ahlyess"
+                },
+				{
+                    line: "My dog, Browny"
+                },
+				{
+                    line: "The Jungle Zone"
+                },
+				{
+                    line: "The Sleepy System"
+                },
+				{
+                    line: "The Cookie System"
+                },
+				{
+                    line: "Nene <3"
+                },
+				{
+                    line: "V from Murder Drones <3"
+                },
+            ]
         }
     ];
 
