@@ -2,7 +2,6 @@
   "version": "1.0.0",
   "name": "NULL OBJECT ERROR?",
   "titleAsset": "storymenu/titles/tutorial",
-  "visible": false,
   "capsule": {"name": "TEST"},
   "props": [
     {
@@ -45,5 +44,6 @@
     }
   ],
   "background": "#00FF00",
-  "songs": ["tost"]
+  "songs": ["i dont want this to be in freeplay so pretend it just says tost here ok? -Liam :)"],
+  "visible": false
 }
