@@ -1,31 +1,23 @@
 {
   "version": "2.2.4",
-  "songName": "Bopeebo (Jimnithix)",
-  "artist": "ThatJan",
-  "charter": "ThatJan + LightningHawkYT",
-  "offsets": { },
+  "songName": "DadBattle (Jimnithix)",
+  "artist": "ThatJan ft. ImTheShepherd",
+  "charter": "ThatJan",
+  "offsets": {},
   "playData": {
-    "difficulties": [
-      "easy",
-      "normal",
-      "hard"
-    ],
+    "difficulties": ["easy", "normal", "hard"],
     "characters": {
       "player": "jimnithong",
       "girlfriend": "kevim",
       "opponent": "dad",
       "instrumental": "jimnithix",
-      "altInstrumentals": ["","pico","JIMNITHONGS"],
+      "altInstrumentals": ["", "pico"],
       "opponentVocals": ["dad"],
       "playerVocals": ["jimnithong"]
     },
     "stage": "mainStageErect",
     "noteStyle": "funkin",
-    "ratings": {
-      "easy": 1,
-      "hard": 2,
-      "normal": 2
-    },
+    "ratings": {"easy": 2, "normal": 3, "hard": 5},
     "album": "jimnithixv1",
     "stickerPack": "jimnithgang",
     "previewStart": 0,
@@ -33,12 +25,5 @@
   },
   "generatedBy": "Friday Night Funkin' - v0.8.4 (and Jan by hand lol)",
   "timeFormat": "ms",
-  "timeChanges": [
-    {
-      "t": 0,
-      "b": 0,
-      "bpm": 100,
-      "bt": [4, 4, 4, 4]
-    }
-  ]
+  "timeChanges": [{"t": 0, "b": 0, "bpm": 180, "bt": [4, 4, 4, 4]}]
 }

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="placeholder.png" width="1241" height="1270">
+	<SubTexture name="JIMNI_PLACEHOLDER_ANIM_0000" x="5" y="715" width="701" height="550" rotated="true" frameX="-30" frameY="-6" frameWidth="614" frameHeight="707"/>
+	<SubTexture name="JIMNI_PLACEHOLDER_ANIM_0001" x="5" y="715" width="701" height="550" rotated="true" frameX="-30" frameY="-6" frameWidth="614" frameHeight="707"/>
+	<SubTexture name="JIMNI_PLACEHOLDER_ANIM_0002" x="5" y="715" width="701" height="550" rotated="true" frameX="-30" frameY="-6" frameWidth="614" frameHeight="707"/>
+	<SubTexture name="JIMNI_PLACEHOLDER_ANIM_0003" x="5" y="715" width="701" height="550" rotated="true" frameX="-30" frameY="-6" frameWidth="614" frameHeight="707"/>
+	
+	<SubTexture name="JIMNI_PLACEHOLDER_ANIM_0004" x="5" y="5" width="614" height="707" frameX="-0" frameY="-0" frameWidth="614" frameHeight="707"/>
+	<SubTexture name="JIMNI_PLACEHOLDER_ANIM_0005" x="5" y="5" width="614" height="707" frameX="-0" frameY="-0" frameWidth="614" frameHeight="707"/>
+	<SubTexture name="JIMNI_PLACEHOLDER_ANIM_0006" x="5" y="5" width="614" height="707" frameX="-0" frameY="-0" frameWidth="614" frameHeight="707"/>
+	<SubTexture name="JIMNI_PLACEHOLDER_ANIM_0007" x="5" y="5" width="614" height="707" frameX="-0" frameY="-0" frameWidth="614" frameHeight="707"/>
+	
+	<SubTexture name="JIMNI_PLACEHOLDER_ANIM_0008" x="5" y="715" width="701" height="550" rotated="true" frameX="-30" frameY="-6" frameWidth="614" frameHeight="707"/>
+	<SubTexture name="JIMNI_PLACEHOLDER_ANIM_0009" x="5" y="715" width="701" height="550" rotated="true" frameX="-30" frameY="-6" frameWidth="614" frameHeight="707"/>
+	<SubTexture name="JIMNI_PLACEHOLDER_ANIM_0010" x="5" y="715" width="701" height="550" rotated="true" frameX="-30" frameY="-6" frameWidth="614" frameHeight="707"/>
+	<SubTexture name="JIMNI_PLACEHOLDER_ANIM_0011" x="5" y="715" width="701" height="550" rotated="true" frameX="-30" frameY="-6" frameWidth="614" frameHeight="707"/>
+	
+	<SubTexture name="JIMNI_PLACEHOLDER_ANIM_0012" x="622" y="5" width="614" height="707" frameX="-0" frameY="-0" frameWidth="614" frameHeight="707"/>
+	<SubTexture name="JIMNI_PLACEHOLDER_ANIM_0013" x="622" y="5" width="614" height="707" frameX="-0" frameY="-0" frameWidth="614" frameHeight="707"/>
+	<SubTexture name="JIMNI_PLACEHOLDER_ANIM_0014" x="622" y="5" width="614" height="707" frameX="-0" frameY="-0" frameWidth="614" frameHeight="707"/>
+	<SubTexture name="JIMNI_PLACEHOLDER_ANIM_0015" x="622" y="5" width="614" height="707" frameX="-0" frameY="-0" frameWidth="614" frameHeight="707"/>
+</TextureAtlas>

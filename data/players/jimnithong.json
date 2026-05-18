@@ -106,36 +106,34 @@
     ],
     "excellent": [
       {
-        "renderType": "animateatlas",
-        "assetPath": "shared:resultScreen/results-pico/resultsGREAT",
+        "renderType": "sparrow",
+        "assetPath": "shared:resultScreen/results-jimnithong/resultsPlaceholder/placeholder",
         "zIndex": 500,
-        "scale": 1.25,
-        "offsets": [0, 0],
-        "looped": true,
-        "loopFrame": 32,
+		"scale": 0.1,
+        "offsets": [600, 0],
+        "loopFrame": 0,
 		"applyStageMatrix": true
       }
     ],
     "great": [
       {
-        "renderType": "animateatlas",
-        "assetPath": "shared:resultScreen/results-pico/resultsGREAT",
+        "renderType": "sparrow",
+        "assetPath": "shared:resultScreen/results-jimnithong/resultsPlaceholder/placeholder",
         "zIndex": 500,
-        "scale": 1.25,
-        "offsets": [0, 0],
-        "looped": true,
-        "loopFrame": 32,
+		"scale": 0.1,
+        "offsets": [600, 0],
+        "loopFrame": 0,
 		"applyStageMatrix": true
       }
     ],
     "good": [
       {
-        "renderType": "animateatlas",
-        "assetPath": "shared:resultScreen/results-pico/resultsGOOD",
+        "renderType": "sparrow",
+        "assetPath": "shared:resultScreen/results-jimnithong/resultsPlaceholder/placeholder",
         "zIndex": 500,
-        "scale": 1.25,
-        "offsets": [0, 0],
-        "loopFrame": 41,
+		"scale": 0.1,
+        "offsets": [600, 0],
+        "loopFrame": 0,
 		"applyStageMatrix": true
       }
     ],
