@@ -1,6 +1,6 @@
 {
 	"version": "1.0.0",
-	"renderType": "sparrow",
+	"renderType": "multisparrow",
 	"offsets": [
 		0,
 		50
@@ -27,7 +27,7 @@
 		"id": "jimnithong",
 		"flipX": false
 	},
-	"assetPath": "characters/jimnithong",
+	"assetPath": "characters/jimnithong/jimniPoses",
 	"generatedBy": "Nova Character Editor v3.0.0",
 	"animations": [
 		{
