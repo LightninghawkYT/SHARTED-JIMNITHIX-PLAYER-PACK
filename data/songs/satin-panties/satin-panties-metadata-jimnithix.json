@@ -2,23 +2,24 @@
  "version": "2.2.4",
  "songName": "Satin Panties (Jimnithix)",
  "artist": "ImTheShepherd",
- "charter": "ThatJan",
+ "charter": "me",
  "offsets": { },
  "playData": {
-  "difficulties": ["easy","normal","hard"],
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
   "characters": {
    "player": "jimnithong-car",
    "girlfriend": "kevim",
    "opponent": "mom-car",
-   "instrumental": "jimnithix",
-   "altInstrumentals": [""],
-   "opponentVocals": ["mom-car"],
-   "playerVocals": ["jimnithong-car"]
+   "instrumental": "jimnithix"
   },
   "stage": "limoRideErect",
   "noteStyle": "funkin",
-  "album": "jimnithixv1",
   "stickerPack": "jimnithgang",
+  "album": "jimnithixv1",
   "ratings": {
    "easy": 0,
    "normal": 0,
@@ -26,8 +27,13 @@
   },
   "previewEnd": 0
  },
- "generatedBy": "Friday Night Funkin' - v0.8.4",
+ "generatedBy": "Friday Night Funkin' - v0.8.5",
  "timeChanges": [
-  {"t": 0,"b": 0,"bpm": 110,"bt": [4, 4, 4, 4]}
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 110,
+   "bt": [4, 4, 4, 4]
+  }
  ]
 }
