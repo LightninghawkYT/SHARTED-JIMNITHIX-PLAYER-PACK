@@ -1,0 +1,154 @@
+{
+	"version": "1.0.0",
+	"renderType": "sparrow",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"applyStageMatrix": false,
+	"scale": 1,
+	"name": "Kevim (Date)",
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"flipX": false,
+	"singTime": 8,
+	"startingAnimation": "danceRight",
+	"isPixel": false,
+	"assetPath": "characters//jimnithevim/kevim-date",
+	"healthIcon": {
+		"offsets": [
+			0,
+			0
+		],
+		"shouldBop": true,
+		"isPixel": false,
+		"scale": 1,
+		"flipX": false,
+		"id": "kevim"
+	},
+	"atlasSettings": {
+		"applyStageMatrix": false,
+		"swfMode": true,
+		"useRenderTexture": false,
+		"cacheOnLoad": false,
+		"filterQuality": 1
+	},
+	"animations": [
+		{
+			"offsets": [
+				0,
+				1
+			],
+			"prefix": "kevimdance",
+			"frameIndices": [
+				30,
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "danceRight",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"prefix": "kevimdance",
+			"frameIndices": [
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			],
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "danceLeft",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				9,
+				2
+			],
+			"frameRate": 24,
+			"prefix": "kevimleft",
+			"animType": "framelabel",
+			"looped": false,
+			"name": "singLEFT",
+			"flipX": false
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-1,
+				-8
+			],
+			"frameRate": 24,
+			"prefix": "kevimdown",
+			"animType": "framelabel",
+			"looped": false,
+			"name": "singDOWN",
+			"flipX": false
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-8,
+				20
+			],
+			"frameRate": 24,
+			"prefix": "kevimup",
+			"animType": "framelabel",
+			"looped": false,
+			"name": "singUP",
+			"flipX": false
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-23,
+				-2
+			],
+			"frameRate": 24,
+			"prefix": "kevimright",
+			"animType": "framelabel",
+			"looped": false,
+			"name": "singRIGHT",
+			"flipX": false
+		}
+	]
+}

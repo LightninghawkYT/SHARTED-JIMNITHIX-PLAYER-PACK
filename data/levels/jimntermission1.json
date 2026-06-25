@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "name": "DREAMY DATE NIGHT",
+  "titleAsset": "storymenu/titles/jimntermission1",
+  "capsule": {"name": "JIMNTRMSN 1"},
+  "props": [
+    {
+      "assetPath": "storymenu/props/kevim",
+      "scale": 0.5,
+      "offsets": [630, -17],
+      "animations": [
+        {
+          "name": "danceLeft",
+          "prefix": "kevim0",
+          "frameIndices": [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+        },
+        {
+          "name": "danceRight",
+          "prefix": "kevim0",
+          "frameIndices": [
+            15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
+          ]
+        }
+      ]
+    },
+    {
+      "assetPath": "storymenu/props/jimnithong",
+      "scale": 0.7,
+      "offsets": [110, -30],
+      "animations": [
+        {
+          "name": "idle",
+          "prefix": "jimnithong0",
+          "frameRate": 24
+        },
+        {
+          "name": "confirm",
+          "prefix": "jimnconfirm0",
+          "offsets": [-20, 10],
+          "frameRate": 24
+        }
+      ]
+    }
+  ],
+  "background": "#FFB6C1",
+  "songs": ["jimnithevim"]
+}

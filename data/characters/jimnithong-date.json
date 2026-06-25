@@ -1,0 +1,206 @@
+{
+	"version": "1.0.0",
+	"renderType": "sparrow",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"applyStageMatrix": false,
+	"scale": 1,
+	"name": "Jimnithong (Date)",
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"flipX": true,
+	"singTime": 8,
+	"startingAnimation": "danceRight",
+	"isPixel": false,
+	"assetPath": "characters//jimnithevim/jimnithong-date",
+	"healthIcon": {
+		"isPixel": false,
+		"shouldBop": true,
+		"offsets": [
+			0,
+			0
+		],
+		"scale": 1,
+		"id": "jimnithong",
+		"flipX": false
+	},
+	"atlasSettings": {
+		"swfMode": true,
+		"applyStageMatrix": false,
+		"useRenderTexture": false,
+		"filterQuality": 1,
+		"cacheOnLoad": false
+	},
+	"animations": [
+		{
+			"offsets": [
+				0,
+				1
+			],
+			"prefix": "Jimndance",
+			"frameIndices": [
+				30,
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"name": "danceRight",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"prefix": "Jimndance",
+			"frameIndices": [
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			],
+			"name": "danceLeft",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				4,
+				-8
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "Jimnleft",
+			"flipX": false,
+			"name": "singLEFT",
+			"looped": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				10,
+				-13
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "Jimndown",
+			"flipX": false,
+			"name": "singDOWN",
+			"looped": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				14,
+				19
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "Jimnup",
+			"flipX": false,
+			"name": "singUP",
+			"looped": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-13,
+				-2
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "Jimnright",
+			"flipX": false,
+			"name": "singRIGHT",
+			"looped": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				14,
+				17
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "JimnMissup",
+			"flipX": false,
+			"name": "singUPmiss",
+			"looped": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				19,
+				-13
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "JimnMissdown",
+			"flipX": false,
+			"name": "singDOWNmiss",
+			"looped": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				6,
+				-4
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "JimnMissleft",
+			"flipX": false,
+			"name": "singLEFTmiss",
+			"looped": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-8,
+				3
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "JimnMissright",
+			"flipX": false,
+			"name": "singRIGHTmiss",
+			"looped": false,
+			"animType": "framelabel"
+		}
+	]
+}

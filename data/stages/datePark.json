@@ -1,0 +1,162 @@
+{
+ "version": "1.0.2",
+ "name": "Date Park",
+ "props": [
+  {
+   "assetPath": "#FFFFFF",
+   "atlasSettings": null,
+   "name": "whitebackground",
+   "position": [-4430, -2724],
+   "scale": 10000,
+   "startingAnimation": null
+  },
+  {
+   "assetPath": "#A4E6FB",
+   "atlasSettings": null,
+   "name": "sky",
+   "position": [-705, -260],
+   "scale": [
+	2400,
+	1300
+],
+   "startingAnimation": null,
+   "zIndex": 1
+  },
+  {
+   "assetPath": "stages/datepark/buildings",
+   "atlasSettings": null,
+   "name": "buildings",
+   "position": [0, 200],
+   "scale": 1,
+   "scroll": [0.8, 0.8],
+   "startingAnimation": null,
+   "zIndex": 10
+  },
+  {
+   "assetPath": "stages/datepark/walkers/zombiegirl",
+   "atlasSettings": null,
+   "name": "walker-zombiegirl",
+   "position": [0, 10],
+   "scale": 0.8,
+   "scroll": [0.95, 0.95],
+   "startingAnimation": null,
+   "zIndex": 20
+  },
+  {
+   "assetPath": "stages/datepark/walkers/liamandfrankie",
+   "atlasSettings": null,
+   "name": "walker-liamandfrankie",
+   "position": [0, 10],
+   "scale": 0.8,
+   "scroll": [0.95, 0.95],
+   "startingAnimation": null,
+   "zIndex": 20
+  },
+  {
+   "assetPath": "stages/datepark/walkers/ashe",
+   "atlasSettings": null,
+   "name": "walker-ashe",
+   "position": [0, 10],
+   "scale": 0.8,
+   "scroll": [0.95, 0.95],
+   "startingAnimation": null,
+   "zIndex": 20
+  },
+  {
+   "assetPath": "stages/datepark/walkers/cassettedemon",
+   "atlasSettings": null,
+   "name": "walker-cassettedemon",
+   "position": [0, 10],
+   "scale": 0.8,
+   "scroll": [0.95, 0.95],
+   "startingAnimation": null,
+   "zIndex": 20
+  },
+  {
+   "assetPath": "stages/datepark/walkers/yosoyjan",
+   "atlasSettings": null,
+   "name": "walker-yosoyjan",
+   "position": [0, 10],
+   "scale": 0.8,
+   "scroll": [0.95, 0.95],
+   "startingAnimation": null,
+   "zIndex": 20
+  },
+  {
+   "assetPath": "stages/datepark/walkers/jan",
+   "atlasSettings": null,
+   "name": "walker-jan",
+   "position": [0, 10],
+   "scale": 0.8,
+   "scroll": [0.95, 0.95],
+   "startingAnimation": null,
+   "zIndex": 20
+  },
+  {
+   "assetPath": "stages/datepark/walkers/blue",
+   "atlasSettings": null,
+   "name": "walker-blue",
+   "position": [0, 10],
+   "scale": 0.8,
+   "scroll": [0.95, 0.95],
+   "startingAnimation": null,
+   "zIndex": 20
+  },
+  {
+   "assetPath": "stages/datepark/tree",
+   "atlasSettings": null,
+   "name": "tree",
+   "position": [-200, -100],
+   "scale": 1,
+   "scroll": [0.9, 0.9],
+   "startingAnimation": null,
+   "zIndex": 30
+  },
+  {
+   "assetPath": "stages/datepark/floor",
+   "atlasSettings": null,
+   "name": "floor",
+   "position": [-700, 470],
+   "scale": 1,
+   "startingAnimation": null,
+   "zIndex": 50
+  },
+  {
+   "animations": [
+    {
+     "animType": "sparrow",
+     "assetPath": "stages/datepark/kevimthinking",
+     "atlasSettings": null,
+     "name": "idle",
+     "prefix": "kevimthinky",
+     "renderType": null
+    }
+   ],
+   "assetPath": "stages/datepark/kevimthinking",
+   "atlasSettings": null,
+   "danceEvery": 1,
+   "name": "kevimthink",
+   "position": [-2000, -668],
+   "scale": 1,
+   "startingAnimation": "idle",
+   "zIndex": 51
+  }
+ ],
+ "characters": {
+  "bf": {
+   "cameraOffsets": [-280, -140],
+   "position": [635, 817],
+   "zIndex": 300
+  },
+  "dad": {
+   "cameraOffsets": [130, -50],
+   "position": [375, 825],
+   "zIndex": 200
+  },
+  "gf": {
+   "cameraOffsets": [0, 0],
+   "position": [501, 815],
+   "zIndex": -10
+  }
+ }
+}

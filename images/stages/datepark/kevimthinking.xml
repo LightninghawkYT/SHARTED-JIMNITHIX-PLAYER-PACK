@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kevimthinking.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="kevimthinky0000" x="0" y="0" width="5031" height="3884" frameX="0" frameY="-10" frameWidth="5031" frameHeight="3911"/>
+	<SubTexture name="kevimthinky0001" x="0" y="0" width="5031" height="3884" frameX="0" frameY="-10" frameWidth="5031" frameHeight="3911"/>
+	<SubTexture name="kevimthinky0002" x="0" y="0" width="5031" height="3884" frameX="0" frameY="-10" frameWidth="5031" frameHeight="3911"/>
+	<SubTexture name="kevimthinky0003" x="0" y="0" width="5031" height="3884" frameX="0" frameY="-10" frameWidth="5031" frameHeight="3911"/>
+	<SubTexture name="kevimthinky0004" x="0" y="0" width="5031" height="3884" frameX="0" frameY="-10" frameWidth="5031" frameHeight="3911"/>
+	<SubTexture name="kevimthinky0005" x="0" y="0" width="5031" height="3884" frameX="0" frameY="-10" frameWidth="5031" frameHeight="3911"/>
+	<SubTexture name="kevimthinky0006" x="0" y="0" width="5031" height="3884" frameX="0" frameY="-10" frameWidth="5031" frameHeight="3911"/>
+	<SubTexture name="kevimthinky0007" x="0" y="3904" width="5031" height="3911"/>
+	<SubTexture name="kevimthinky0008" x="0" y="3904" width="5031" height="3911"/>
+	<SubTexture name="kevimthinky0009" x="0" y="3904" width="5031" height="3911"/>
+	<SubTexture name="kevimthinky0010" x="0" y="3904" width="5031" height="3911"/>
+	<SubTexture name="kevimthinky0011" x="0" y="3904" width="5031" height="3911"/>
+	<SubTexture name="kevimthinky0012" x="0" y="3904" width="5031" height="3911"/>
+	<SubTexture name="kevimthinky0013" x="0" y="3904" width="5031" height="3911"/>
+</TextureAtlas>

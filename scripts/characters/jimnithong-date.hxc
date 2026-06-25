@@ -1,0 +1,21 @@
+import funkin.play.character.SparrowCharacter;
+import funkin.play.PlayState;
+import funkin.play.character.CharacterType;
+import funkin.play.GameOverSubState;
+import funkin.play.PauseSubState;
+
+class JimnithongDateCharacter extends SparrowCharacter {
+    function new() {
+        super('jimnithong-date');
+    }
+	function onCreate(event:ScriptEvent) {
+		super.onCreate(event);
+
+
+		GameOverSubState.musicSuffix = '-jimnithong';
+
+		PauseSubState.musicSuffix = '-jimnithong';
+	}
+	
+}
+

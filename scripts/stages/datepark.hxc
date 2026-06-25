@@ -1,0 +1,102 @@
+import StringTools;
+import flixel.FlxG;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTweenManager;
+import funkin.Conductor;
+import funkin.play.PlayState;
+import funkin.play.stage.Stage;
+import funkin.graphics.FunkinSprite;
+
+class DateParkStage extends Stage
+{
+	function new()
+	{
+		super('datepark');
+	}
+
+	var tweenMan:FlxTweenManager = new FlxTweenManager();
+    var walkers = [];
+    var refProp:String = "floor";
+    var debugText;
+
+	function onCreate(event:ScriptEvent)
+    {
+		super.onCreate(event);
+
+        walkers = [];
+
+        for (i in _data.props){
+            if (StringTools.startsWith(i.name, "walker-")) walkers.push(i.name);
+        }
+
+        for (i in walkers) setup(getNamedProp(i));
+	}
+
+	function onUpdate(event:UpdateScriptEvent):Void
+	{
+		super.onUpdate(event);
+		tweenMan.update(event?.elapsed ?? 0);
+	}
+
+    var prop:FunkinSprite;
+    var walkingProps = [];
+
+    function setup(target:FunkinSprite){
+        var targetX = getNamedProp(refProp).x - target.width;
+        if (FlxG.random.bool()) {
+            targetX += getNamedProp(refProp).width + target.width;
+            target.flipX = true;
+        }
+        target.x = targetX;
+    }
+
+    //chooses random walker
+    function chooseProp(){
+        if (walkingProps.length == walkers.length) return; // doesnt do anything if every walker is walking
+        propIndex = FlxG.random.int(0,walkers.length - 1);
+        propName = walkers[propIndex].toString();
+        if (walkingProps.contains(propName)) { chooseProp(); return; } // chooses a different walker if the one selected is already walking 
+        setWalking(propName);
+    }
+
+    //sets off the tween to make a walker move from left to right
+    function setWalking(target:String){
+        walkingProps.push(target); // adds them to list of walking props
+        prop = getNamedProp(target);
+        setup(prop); // chooses a starting side
+
+        var time:Float = 8; // amt of time it'll take them to walk across the screen
+
+        var targetX:Float = getNamedProp(refProp).x - prop.width; // sets their target to the opposite side
+        if (prop.x == targetX) { prop.flipX = false; targetX += getNamedProp(refProp).width + prop.width; }
+        else prop.flipX = true;
+        
+        tweenMan.tween(prop, { x: targetX }, time, { onComplete:_ -> {walkingProps.remove(target);}}); // removes them from list of walking props
+    }
+
+    function onBeatHit(event:SongTimeScriptEvent)
+    {
+        super.onBeatHit(event);
+
+        // makes every walker bop to the beat
+        for (i in walkers){ 
+            i = getNamedProp(i);
+            i.y = getNamedProp(refProp).y - i.height + 90; // sets walkers to be just above the bush
+            tweenMan.tween(i, { y: i.y - 20 }, Conductor.instance.beatLengthMs / 2000, { ease: FlxEase.quartOut });
+        }
+
+        // every 4th beat picks randomly whether to set a walker going 
+        if (event.beat % 4 == 0 && FlxG.random.bool()) chooseProp();
+    }
+
+    function onSongRetry(event:ScriptEvent)
+    {
+        super.onSongRetry(event);
+
+        for (i in walkers){
+            if (walkingProps.contains(i)) continue;
+            setup(getNamedProp(i));
+        }
+    }
+}

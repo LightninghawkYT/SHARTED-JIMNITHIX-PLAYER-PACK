@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kevim.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="kevim0000" x="0" y="0" width="752" height="534" frameX="0" frameY="-14" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0001" x="772" y="0" width="752" height="534" frameX="0" frameY="-14" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0002" x="1544" y="0" width="752" height="532" frameX="0" frameY="-16" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0003" x="2316" y="0" width="752" height="532" frameX="0" frameY="-16" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0004" x="3088" y="0" width="752" height="533" frameX="0" frameY="-15" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0005" x="3088" y="0" width="752" height="533" frameX="0" frameY="-15" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0006" x="3088" y="0" width="752" height="533" frameX="0" frameY="-15" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0007" x="0" y="554" width="752" height="541" frameX="0" frameY="-7" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0008" x="0" y="554" width="752" height="541" frameX="0" frameY="-7" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0009" x="772" y="554" width="752" height="543" frameX="0" frameY="-5" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0010" x="772" y="554" width="752" height="543" frameX="0" frameY="-5" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0011" x="772" y="554" width="752" height="543" frameX="0" frameY="-5" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0012" x="772" y="554" width="752" height="543" frameX="0" frameY="-5" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0013" x="1544" y="554" width="752" height="543" frameX="0" frameY="-5" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0014" x="1544" y="554" width="752" height="543" frameX="0" frameY="-5" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0015" x="2316" y="554" width="752" height="546" frameX="0" frameY="-2" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0016" x="3088" y="554" width="752" height="546" frameX="0" frameY="-2" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0017" x="0" y="1120" width="752" height="546" frameX="0" frameY="-2" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0018" x="0" y="1120" width="752" height="546" frameX="0" frameY="-2" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0019" x="772" y="1120" width="752" height="548"/>
+	<SubTexture name="kevim0020" x="772" y="1120" width="752" height="548"/>
+	<SubTexture name="kevim0021" x="772" y="1120" width="752" height="548"/>
+	<SubTexture name="kevim0022" x="1544" y="1120" width="752" height="547" frameX="0" frameY="-1" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0023" x="1544" y="1120" width="752" height="547" frameX="0" frameY="-1" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0024" x="2316" y="1120" width="752" height="544" frameX="0" frameY="-4" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0025" x="2316" y="1120" width="752" height="544" frameX="0" frameY="-4" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0026" x="2316" y="1120" width="752" height="544" frameX="0" frameY="-4" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0027" x="2316" y="1120" width="752" height="544" frameX="0" frameY="-4" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0028" x="1544" y="554" width="752" height="543" frameX="0" frameY="-5" frameWidth="752" frameHeight="548"/>
+	<SubTexture name="kevim0029" x="1544" y="554" width="752" height="543" frameX="0" frameY="-5" frameWidth="752" frameHeight="548"/>
+</TextureAtlas>
