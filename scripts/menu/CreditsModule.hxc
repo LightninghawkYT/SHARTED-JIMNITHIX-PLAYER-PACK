@@ -39,8 +39,21 @@ class CreditsModule extends Module
                 },
                 {
                     line: "ThatJan"
+                },
+                {
+                    line: "DingalingzYoManz"
                 }
             ]
+        },
+         {
+            header: "Programmers",
+            body:
+            [
+                {
+                    line: "ChazbillYT"
+                }
+            ]
+            
         },
          {
             header: "Charters",
