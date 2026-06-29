@@ -13,6 +13,7 @@
   "characters": {
    "player": "jimnithong-date",
    "opponent": "kevim-date",
+   "altInstrumentals": ["","JIMNITHONGS"],
    "opponentVocals": [
     "kevim-date"
    ],
