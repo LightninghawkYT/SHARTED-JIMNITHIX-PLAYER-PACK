@@ -4,27 +4,27 @@ import funkin.play.character.CharacterType;
 import funkin.play.GameOverSubState;
 import funkin.play.PauseSubState;
 
-class JimnithongCharacter extends MultiSparrowCharacter {
-    function new() {
+class JimnithongCharacter extends MultiSparrowCharacter 
+{
+    function new() 
+	{
         super("jimnithong");
     }
-	function onCreate(event:ScriptEvent) {
+	function onCreate(event:ScriptEvent) 
+	{
 		super.onCreate(event);
-
-
+		
 		GameOverSubState.musicSuffix = '-jimnithong';
-
 		PauseSubState.musicSuffix = '-jimnithong';
 	}
 
-
-
-
-    override function playAnimation(name:String, restart:Bool = false, ignoreOther:Bool = false, reversed:Bool = false):Void {
+    override function playAnimation(name:String, restart:Bool = false, ignoreOther:Bool = false, reversed:Bool = false):Void 
+	{
         super.playAnimation(name, restart, ignoreOther, reversed);
         if (name == "cheer") PlayState.instance.vocals.playerVolume = 1;
         if (name == "ahem") PlayState.instance.vocals.playerVolume = 1;
     }
+	
 	function onNoteHit(event:HitNoteScriptEvent)
 	{
 		// Override the hit note animation.
@@ -41,6 +41,14 @@ class JimnithongCharacter extends MultiSparrowCharacter {
 					this.playSingAnimation(event.note.noteData.getDirection(), false);
 			}
 		}
+	}
+	
+	function onGameOver()
+	{
+		var badInst = FlxG.random.int(1, 15);
+		
+		if (badInst == 12) GameOverSubState.musicSuffix = '-reallyBad';
+		else GameOverSubState.musicSuffix = '-jimnithong';
 	}
 }
 

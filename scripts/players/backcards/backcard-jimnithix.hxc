@@ -85,10 +85,11 @@ class JimniCard extends BackingCard
 
     confirmGlow.visible = false;
     confirmGlow2.visible = false;
-
-    scrollBack = new FlxBackdrop(Paths.image('freeplay/backingCards/jimnithong/lowerLoop'), 0x01, 20);
+	
+	var idkMan = FlxG.random.int(1, 100);
+    if (idkMan == 2) scrollBack = new FlxBackdrop(Paths.image('freeplay/backingCards/jimnithong/sureMan'), 0x01, 20);
+	else scrollBack = new FlxBackdrop(Paths.image('freeplay/backingCards/jimnithong/lowerLoop'), 0x01, 20);
     scrollBack.setPosition(0, 200);
-    scrollBack.flipX = true;
     scrollBack.alpha = 0.5;
     scrollBack.velocity.x = -110;
     add(scrollBack);
@@ -105,26 +106,20 @@ class JimniCard extends BackingCard
     add(greenBar);
 
 
-    scrollTop = new FlxBackdrop(Paths.image('freeplay/backingCards/jimnithong/headLoop'), 0x01, 20);
+	var playerHead = FlxG.random.int(1, 4);
+	if (playerHead == 2) scrollTop = new FlxBackdrop(Paths.image('freeplay/backingCards/jimnithong/headLoopAlt'), 0x01, 20);
+	else if (playerHead == 3) scrollTop = new FlxBackdrop(Paths.image('freeplay/backingCards/jimnithong/headLoopDouble'), 0x01, 20);
+    else scrollTop = new FlxBackdrop(Paths.image('freeplay/backingCards/jimnithong/headLoop'), 0x01, 20);
     scrollTop.setPosition(0, 80);
     scrollTop.velocity.x = -140;
     add(scrollTop);
-	
-	//scrollTop = new FlxBackdrop(Paths.image('freeplay/backingCards/jimnithong/topLoop'), 0x01, 20);
-	//scrollTop.setPosition(0, 406);
-    //scrollTop = new FlxBackdrop(null, 0x01, 20);
-    //scrollTop.velocity.x = 220;
-    //add(scrollTop);
 
-    scrollMiddle = new FlxBackdrop(Paths.image('freeplay/backingCards/jimnithong/middleLoop'), 0x01, 15);
+	var superSecretEasterEgg = FlxG.random.int(1, 10);
+	if (superSecretEasterEgg == 5) scrollMiddle = new FlxBackdrop(Paths.image('freeplay/backingCards/jimnithong/bananaSecret'), 0x01, 15);
+	else scrollMiddle = new FlxBackdrop(Paths.image('freeplay/backingCards/jimnithong/middleLoop'), 0x01, 15);
     scrollMiddle.setPosition(0, 325);
     add(scrollMiddle);
     scrollMiddle.velocity.x = 220;
-	
-	//scrollBanana = new FlxBackdrop(Paths.image('freeplay/backingCards/jimnithong/bananaSecret'), 0x01, 100);
-    //scrollBanana.setPosition(0, 80);
-    //scrollBanana.velocity.x = -1600;
-    //add(scrollBanana);
 
     glowDark = new FlxSprite((FreeplayState.CUTOUT_WIDTH * FreeplayState.DJ_POS_MULTI)
       + -300, 330).loadGraphic(Paths.image('freeplay/backingCards/jimnithong/glow'));

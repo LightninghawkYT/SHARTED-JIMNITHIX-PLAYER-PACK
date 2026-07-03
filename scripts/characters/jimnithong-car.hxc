@@ -3,17 +3,29 @@ import funkin.play.PlayState;
 import funkin.play.character.CharacterType;
 import funkin.play.GameOverSubState;
 import funkin.play.PauseSubState;
+
 class Jimnithong extends MultiSparrowCharacter {
-    function new() {
+    function new() 
+	{
         super("jimnithong-car");
     }
-	function onCreate(event:ScriptEvent) {
+	
+	function onCreate(event:ScriptEvent) 
+	{
 		super.onCreate(event);
 
 
 		GameOverSubState.musicSuffix = '-jimnithong';
 
 		PauseSubState.musicSuffix = '-jimnithong';
+	}
+	
+	function onGameOver()
+	{
+		var badInst = FlxG.random.int(1, 15);
+		
+		if (badInst == 12) GameOverSubState.musicSuffix = '-reallyBad';
+		else GameOverSubState.musicSuffix = '-jimnithong';
 	}
 }
 

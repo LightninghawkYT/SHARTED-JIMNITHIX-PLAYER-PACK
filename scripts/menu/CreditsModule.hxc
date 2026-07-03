@@ -1,5 +1,6 @@
 import funkin.modding.module.Module;
 import funkin.ui.credits.CreditsDataHandler;
+import funkin.audio.FunkinSound;
 
 class CreditsModule extends Module 
 {
@@ -115,6 +116,9 @@ class CreditsModule extends Module
                 },
 				{
                     line: "StarmanOmega"
+                },
+				{
+                    line: "LuigiGeek347"
                 },
 				{
                     line: "Ahlyess"
